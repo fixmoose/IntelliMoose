@@ -1,0 +1,476 @@
+.team-features {
+  padding: 8rem 0;
+  background: linear-gradient(180deg, rgba(139, 92, 246, 0.02), transparent, rgba(0, 245, 255, 0.02));
+}
+
+.team-intro {
+  text-align: center;
+  font-size: 1.25rem;
+  max-width: 900px;
+  margin: 0 auto 4rem;
+  color: var(--text-gray);
+  line-height: 1.8;
+}
+
+/* Feature Showcase */
+.feature-showcase {
+  margin-bottom: 3rem;
+  padding: 3rem;
+}
+
+.showcase-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--glass-border);
+}
+
+.icon-badge {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: var(--bg-dark);
+  flex-shrink: 0;
+  box-shadow: 0 10px 30px rgba(0, 245, 255, 0.3);
+}
+
+.icon-badge.supervisor {
+  background: linear-gradient(135deg, var(--accent), #ef4444);
+}
+
+.showcase-header h3 {
+  font-size: 2rem;
+  color: var(--text-light);
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: var(--text-gray);
+  font-size: 1.1rem;
+}
+
+/* Communication Examples */
+.communication-examples {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.comm-example {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: rgba(0, 245, 255, 0.05);
+  border-radius: 15px;
+  border: 1px solid rgba(0, 245, 255, 0.2);
+  flex-wrap: wrap;
+}
+
+.comm-step {
+  flex: 1;
+  min-width: 200px;
+}
+
+.step-label {
+  display: block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: var(--primary);
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.voice-command {
+  font-size: 1.3rem;
+  color: var(--text-light);
+  font-weight: 600;
+  font-style: italic;
+}
+
+.notification {
+  font-size: 1.2rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.channel-open {
+  font-size: 1.1rem;
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+.comm-arrow {
+  font-size: 2rem;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.comm-feature {
+  padding: 2rem;
+  background: rgba(139, 92, 246, 0.05);
+  border-radius: 15px;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.comm-feature h4 {
+  font-size: 1.5rem;
+  color: var(--secondary);
+  margin-bottom: 1rem;
+}
+
+.message-example {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.message-example .you {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  font-style: italic;
+  padding: 1rem 1.5rem;
+  background: rgba(0, 245, 255, 0.1);
+  border-radius: 10px;
+  border-left: 3px solid var(--primary);
+}
+
+.message-example .delivery {
+  font-size: 1.1rem;
+  color: var(--text-gray);
+  padding-left: 1.5rem;
+}
+
+.control-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.control-item {
+  padding: 1rem 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  color: var(--text-light);
+  font-size: 1.05rem;
+}
+
+.control-item strong {
+  color: var(--primary);
+  margin-right: 0.5rem;
+}
+
+/* Connectivity Grid */
+.connectivity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.connectivity-card {
+  padding: 2.5rem;
+}
+
+.connectivity-card .icon-badge {
+  margin-bottom: 1.5rem;
+}
+
+.connectivity-card h3 {
+  font-size: 1.75rem;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.connectivity-card p {
+  color: var(--text-gray);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.connectivity-card ul {
+  list-style: none;
+}
+
+.connectivity-card ul li {
+  padding: 0.75rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--text-light);
+  font-size: 1.05rem;
+}
+
+.connectivity-card ul li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+/* Supervisor Section */
+.supervisor-section {
+  margin-bottom: 3rem;
+  padding: 3rem;
+}
+
+.supervisor-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--glass-border);
+}
+
+.supervisor-features {
+  display: grid;
+  gap: 2rem;
+}
+
+.supervisor-feature {
+  padding: 2rem;
+  background: rgba(245, 158, 11, 0.05);
+  border-radius: 15px;
+  border-left: 4px solid var(--accent);
+}
+
+.supervisor-feature h4 {
+  font-size: 1.5rem;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+.supervisor-feature p {
+  color: var(--text-gray);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* Team Example */
+.team-example {
+  padding: 3rem;
+  margin-bottom: 3rem;
+  background: linear-gradient(135deg, rgba(0, 245, 255, 0.03), rgba(139, 92, 246, 0.03));
+  border: 2px solid var(--primary);
+}
+
+.example-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+}
+
+.scenario {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.scenario-step {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.scenario-step:hover {
+  background: rgba(0, 245, 255, 0.05);
+  transform: translateX(10px);
+}
+
+.scenario-step.highlight {
+  background: linear-gradient(90deg, rgba(0, 245, 255, 0.1), rgba(139, 92, 246, 0.1));
+  border: 2px solid var(--primary);
+}
+
+.scenario-step .time {
+  min-width: 80px;
+  padding: 0.5rem 1rem;
+  background: var(--primary);
+  color: var(--bg-dark);
+  border-radius: 8px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.scenario-step p {
+  color: var(--text-light);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Modes Comparison */
+.modes-comparison {
+  margin-bottom: 3rem;
+}
+
+.modes-comparison h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  color: var(--text-light);
+}
+
+.modes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.mode-card {
+  padding: 2rem;
+  background: var(--glass-bg);
+  border: 2px solid var(--glass-border);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.mode-card.highlighted {
+  border-color: var(--primary);
+  background: rgba(0, 245, 255, 0.05);
+}
+
+.mode-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary);
+  box-shadow: 0 10px 30px rgba(0, 245, 255, 0.2);
+}
+
+.mode-card h4 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+}
+
+.mode-card ul {
+  list-style: none;
+}
+
+.mode-card ul li {
+  padding: 0.75rem 0;
+  color: var(--text-light);
+  font-size: 1.05rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.mode-card ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+/* Team Benefits */
+.team-benefits {
+  text-align: center;
+}
+
+.team-benefits h3 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: var(--text-light);
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.benefit {
+  padding: 2rem;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.benefit:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-5px);
+}
+
+.benefit svg {
+  font-size: 3rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.benefit h4 {
+  font-size: 1.3rem;
+  color: var(--text-light);
+  margin-bottom: 0.75rem;
+}
+
+.benefit p {
+  color: var(--text-gray);
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+  .team-features {
+    padding: 4rem 0;
+  }
+
+  .showcase-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .comm-example {
+    flex-direction: column;
+  }
+
+  .comm-arrow {
+    transform: rotate(90deg);
+  }
+
+  .connectivity-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .supervisor-header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .feature-showcase,
+  .supervisor-section,
+  .team-example {
+    padding: 2rem 1.5rem;
+  }
+
+  .scenario-step {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
