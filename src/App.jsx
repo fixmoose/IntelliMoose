@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ProductShowcase from './components/ProductShowcase';
+import CompatibleDevices from './components/CompatibleDevices';
 import Features from './components/Features';
 import TeamFeatures from './components/TeamFeatures';
 import AdvancedFeatures from './components/AdvancedFeatures';
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <div className="content">
         <Hero />
+        <CompatibleDevices />
         <ProductShowcase />
         <Features />
         <TeamFeatures />

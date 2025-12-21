@@ -14,13 +14,13 @@ const Hero = () => {
 
           <h1 className="hero-title">
             <span className="brand-name">IntelliMoose</span>
-            <span className="tagline">Smart Glasses for Smart Trades</span>
+            <span className="tagline">Pocket AI Assistant for Any Smart Glasses or Device</span>
           </h1>
 
           <p className="hero-description">
-            Your expert assistant, <span className="neon-text">right before your eyes</span>.
-            AI-powered safety glasses that put manufacturer manuals, code books,
-            and technical documentation at your fingertips—hands-free.
+            Your <span className="neon-text">pocket AI assistant</span> loaded with manuals, code books, and specs.
+            Works with ANY smart glasses, phone, or tablet via Bluetooth/WiFi.
+            100% offline, private, and built for electricians, HVAC techs, and contractors.
           </p>
 
           <div className="hero-features">
@@ -38,12 +38,20 @@ const Hero = () => {
             </div>
           </div>
 
-          <button
-            className="glow-button hero-cta"
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-          >
-            Get Early Access
-          </button>
+          <div className="hero-cta-buttons">
+            <button
+              className="glow-button hero-cta"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              Get Early Access
+            </button>
+            <button
+              className="glow-button secondary-cta"
+              onClick={() => window.open('http://localhost:5174', '_blank')}
+            >
+              Investor Overview →
+            </button>
+          </div>
         </div>
 
         <div className="hero-image">

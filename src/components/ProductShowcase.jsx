@@ -9,12 +9,12 @@ const ProductShowcase = () => {
     <section className="product-showcase">
       <div className="content">
         <h2 className="section-heading">
-          Meet IntelliMoose
+          The IntelliMoose System
         </h2>
 
         <p className="showcase-intro">
-          The world's first AI-powered safety glasses designed specifically for skilled professionals.
-          Every detail engineered for durability, comfort, and intelligent assistance.
+          A pocket AI device pre-loaded with your industry's manuals and code books.
+          Connect it to any smart glasses, phone, or tablet. No internet required.
         </p>
 
         <div className="showcase-grid">
@@ -45,42 +45,50 @@ const ProductShowcase = () => {
             <p>Portable battery pack for 8-12 hours continuous use</p>
           </div>
 
-          <div className="showcase-card glass-card">
+          <div className="showcase-card glass-card highlight">
             <div className="image-container">
-              <img src={withTransceiver} alt="Local LLM Option" />
+              <img src={withTransceiver} alt="IntelliMoose Pocket AI Device" />
               <div className="image-glow"></div>
             </div>
-            <h3>Local AI Mode</h3>
-            <p>Optional transceiver for offline AI processing</p>
+            <h3>Pocket AI Brain</h3>
+            <p>The core device: Offline LLM with your manuals pre-loaded. Connects to ANY display.</p>
           </div>
         </div>
 
         <div className="tech-highlights glass-card">
-          <h3>Technical Specifications</h3>
+          <h3>Pocket AI Device - Technical Specifications</h3>
           <div className="specs-list">
             <div className="spec-item">
-              <span className="spec-label">Camera</span>
-              <span className="spec-value">HD with wide-angle lens</span>
+              <span className="spec-label">Processor</span>
+              <span className="spec-value">ARM-based SoC (Raspberry Pi 5 or equivalent)</span>
             </div>
             <div className="spec-item">
-              <span className="spec-label">Audio</span>
-              <span className="spec-value">Bone conduction speaker</span>
+              <span className="spec-label">AI Model</span>
+              <span className="spec-value">Local LLM (Llama 3.2, Phi-3.5-vision, or similar)</span>
             </div>
             <div className="spec-item">
-              <span className="spec-label">Protection</span>
-              <span className="spec-value">ANSI Z87.1 safety rated</span>
-            </div>
-            <div className="spec-item">
-              <span className="spec-label">Weight</span>
-              <span className="spec-value">45g ultralight</span>
-            </div>
-            <div className="spec-item">
-              <span className="spec-label">Battery</span>
-              <span className="spec-value">8-12 hours continuous</span>
+              <span className="spec-label">Storage</span>
+              <span className="spec-value">128GB - 512GB (for manuals & code books)</span>
             </div>
             <div className="spec-item">
               <span className="spec-label">Connectivity</span>
-              <span className="spec-value">USB-C + Wireless</span>
+              <span className="spec-value">Bluetooth 5.0, WiFi Direct, USB-C</span>
+            </div>
+            <div className="spec-item">
+              <span className="spec-label">Battery Life</span>
+              <span className="spec-value">8-12 hours active use</span>
+            </div>
+            <div className="spec-item">
+              <span className="spec-label">Size</span>
+              <span className="spec-value">Pocket-sized (approx. 4" × 2.5" × 0.8")</span>
+            </div>
+            <div className="spec-item">
+              <span className="spec-label">Operating Mode</span>
+              <span className="spec-value">100% Offline - No internet required</span>
+            </div>
+            <div className="spec-item">
+              <span className="spec-label">Compatible Devices</span>
+              <span className="spec-value">Any smart glasses, phones, tablets with BT/WiFi</span>
             </div>
           </div>
         </div>

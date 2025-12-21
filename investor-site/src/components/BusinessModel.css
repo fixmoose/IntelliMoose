@@ -1,0 +1,278 @@
+.business-model {
+  background: linear-gradient(180deg, rgba(16, 185, 129, 0.03) 0%, rgba(6, 182, 212, 0.03) 100%);
+}
+
+.revenue-model {
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+.revenue-model h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: var(--text-primary);
+}
+
+.revenue-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.revenue-stream {
+  background: rgba(6, 182, 212, 0.05);
+  border: 1px solid rgba(6, 182, 212, 0.2);
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.revenue-stream.primary-stream {
+  background: rgba(16, 185, 129, 0.05);
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.stream-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(6, 182, 212, 0.3);
+}
+
+.stream-header h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.revenue-badge {
+  background: var(--primary);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.revenue-badge.optional {
+  background: var(--secondary);
+}
+
+.pricing-table {
+  margin-bottom: 1.5rem;
+}
+
+.pricing-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-secondary);
+}
+
+.pricing-row .price {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+
+.unit-economics {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid rgba(16, 185, 129, 0.3);
+}
+
+.unit-economics h5 {
+  color: var(--primary);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.economics-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0;
+  color: var(--text-secondary);
+}
+
+.economics-row.gross-margin {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.recurring-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.recurring-list li {
+  padding: 0.8rem 0;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.recurring-list strong {
+  color: var(--text-primary);
+}
+
+.recurring-note {
+  background: rgba(6, 182, 212, 0.1);
+  border-left: 3px solid var(--primary);
+  padding: 1rem;
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.financial-projections {
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+.financial-projections h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: var(--text-primary);
+}
+
+.projections-table {
+  margin-bottom: 2rem;
+}
+
+.proj-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.proj-row.header-row {
+  background: rgba(6, 182, 212, 0.1);
+  font-weight: 700;
+  color: var(--text-primary);
+  border-radius: 8px 8px 0 0;
+}
+
+.proj-cell {
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.proj-cell.year {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.proj-cell.revenue {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.projection-notes {
+  background: rgba(139, 92, 246, 0.05);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.projection-notes p {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.projection-notes ul {
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.gtm-strategy {
+  margin-top: 4rem;
+}
+
+.gtm-strategy h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--text-primary);
+}
+
+.gtm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.gtm-card {
+  padding: 2rem;
+}
+
+.gtm-card h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 2px solid rgba(6, 182, 212, 0.3);
+}
+
+.gtm-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.gtm-card li {
+  padding: 0.6rem 0;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.gtm-card li:before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .revenue-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .proj-row {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .gtm-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .proj-row {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .proj-cell {
+    text-align: left;
+  }
+}

@@ -1,0 +1,439 @@
+.patent-strategy {
+  background: linear-gradient(180deg, rgba(139, 92, 246, 0.05) 0%, rgba(16, 185, 129, 0.05) 100%);
+}
+
+.patent-status {
+  padding: 3rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.status-badge-large {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.badge-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.status-badge-large h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.status-badge-large p {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.ip-overview {
+  margin-bottom: 4rem;
+}
+
+.ip-overview h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--text-primary);
+}
+
+.patentable-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.patent-reason {
+  padding: 2rem;
+  text-align: center;
+}
+
+.reason-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.patent-reason h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.patent-reason p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.patent-claims {
+  margin-bottom: 4rem;
+}
+
+.patent-claims h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--text-primary);
+}
+
+.claims-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.claim-card {
+  padding: 2rem;
+  position: relative;
+}
+
+.claim-number {
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: white;
+  box-shadow: 0 4px 20px rgba(6, 182, 212, 0.4);
+}
+
+.claim-card h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.claim-description {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.claim-scope {
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.claim-scope strong {
+  color: var(--primary);
+}
+
+.ip-portfolio {
+  margin-bottom: 4rem;
+}
+
+.ip-portfolio h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--text-primary);
+}
+
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.timeline-item {
+  padding: 2rem;
+}
+
+.timeline-date {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.timeline-item h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.timeline-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline-item li {
+  padding: 0.5rem 0;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.timeline-item li:before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.defensive-moats {
+  margin-bottom: 4rem;
+}
+
+.defensive-moats h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+}
+
+.moats-comparison {
+  padding: 2.5rem;
+}
+
+.moats-comparison h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+}
+
+.comparison-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.comparison-row {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 2fr;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.comparison-row.header-row {
+  background: rgba(6, 182, 212, 0.1);
+  font-weight: 700;
+  color: var(--text-primary);
+  border-radius: 8px 8px 0 0;
+}
+
+.comp-cell {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.comp-cell strong {
+  color: var(--text-primary);
+}
+
+.trade-secrets {
+  margin-bottom: 4rem;
+}
+
+.trade-secrets h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.trade-secrets-intro {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  line-height: 1.7;
+}
+
+.secrets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.secrets-card {
+  padding: 2rem;
+}
+
+.secrets-card.patent-protected {
+  background: rgba(6, 182, 212, 0.05);
+  border-color: rgba(6, 182, 212, 0.3);
+}
+
+.secrets-card.trade-secret {
+  background: rgba(16, 185, 129, 0.05);
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.secrets-card h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.protection-note {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.secrets-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.secrets-card li {
+  padding: 0.6rem 0;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.secrets-card li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: bold;
+}
+
+.ip-investment {
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+.ip-investment h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: var(--text-primary);
+}
+
+.roi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.roi-item {
+  text-align: center;
+  padding: 1.5rem;
+  background: rgba(6, 182, 212, 0.05);
+  border-radius: 12px;
+}
+
+.roi-label {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.roi-value {
+  font-size: 2.5rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+}
+
+.roi-item p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.roi-conclusion {
+  text-align: center;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.roi-conclusion strong {
+  color: var(--text-primary);
+}
+
+.disclosure-note {
+  padding: 2rem;
+  background: rgba(245, 158, 11, 0.1);
+  border: 2px solid rgba(245, 158, 11, 0.3);
+}
+
+.disclosure-note h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #f59e0b;
+  margin-bottom: 1rem;
+}
+
+.disclosure-note p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.disclosure-date {
+  color: var(--text-primary);
+  font-weight: 600;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+@media (max-width: 1024px) {
+  .comparison-row {
+    grid-template-columns: 1fr;
+  }
+
+  .comparison-row.header-row {
+    display: none;
+  }
+
+  .comp-cell {
+    padding: 0.5rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .patentable-grid,
+  .claims-grid,
+  .timeline-grid,
+  .secrets-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .roi-grid {
+    grid-template-columns: 1fr;
+  }
+}
