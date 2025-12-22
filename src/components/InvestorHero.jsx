@@ -1,6 +1,6 @@
-import './Hero.css';
+import './InvestorHero.css';
 
-const Hero = () => {
+const InvestorHero = () => {
   return (
     <section className="investor-hero">
       <div className="hero-badge">
@@ -25,6 +25,23 @@ const Hero = () => {
         that works in environments where cloud AI fails.
       </p>
 
+      <div className="hero-cta-buttons" style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginBottom: '2rem' }}>
+        <button
+          className="glow-button hero-cta"
+          onClick={() => document.getElementById('investment')?.scrollIntoView({ behavior: 'smooth' })}
+          style={{ padding: '1rem 2rem', fontSize: '1rem', cursor: 'pointer' }}
+        >
+          View Investment Opportunity
+        </button>
+        <button
+          className="glow-button secondary-cta"
+          onClick={() => window.location.href = '/intellimoose'}
+          style={{ padding: '1rem 2rem', fontSize: '1rem', cursor: 'pointer' }}
+        >
+          See Product Demo →
+        </button>
+      </div>
+
       <div className="hero-metrics">
         <div className="metric">
           <div className="metric-value">$500B+</div>
@@ -44,11 +61,6 @@ const Hero = () => {
         <h2>The Problem We're Solving</h2>
         <div className="problem-grid">
           <div className="problem-card">
-            <div className="problem-icon">🌐</div>
-            <h3>Cloud AI Doesn't Work Everywhere</h3>
-            <p>Trucks, ships, basements, rural sites—millions of professionals work where internet is unreliable or unavailable.</p>
-          </div>
-          <div className="problem-card">
             <div className="problem-icon">🔒</div>
             <h3>Privacy Concerns Are Growing</h3>
             <p>Ring uploads to Amazon. Nest uploads to Google. Consumers and businesses want AI without surveillance.</p>
@@ -63,15 +75,20 @@ const Hero = () => {
             <h3>Generic AI Lacks Domain Expertise</h3>
             <p>ChatGPT can't tell you NEC wire gauge requirements. Our AI is pre-loaded with trade-specific manuals and codes.</p>
           </div>
+          <div className="problem-card">
+            <div className="problem-icon">👥</div>
+            <h3>Skilled Labor Shortage Crisis</h3>
+            <p>500,000 electrician shortage by 2028. Average tradesperson is 55+ years old. Companies can't find experienced workers, but our AI delivers expert-level guidance to anyone with basic training.</p>
+          </div>
+          <div className="problem-card">
+            <div className="problem-icon">🌐</div>
+            <h3>Cloud AI Doesn't Work Everywhere</h3>
+            <p>Trucks, ships, basements, rural sites—millions of professionals work where internet is unreliable or unavailable.</p>
+          </div>
         </div>
-      </div>
-
-      <div className="scroll-indicator">
-        <div className="scroll-arrow">↓</div>
-        <span>Explore the Opportunity</span>
       </div>
     </section>
   );
 };
 
-export default Hero;
+export default InvestorHero;

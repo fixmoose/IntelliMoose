@@ -127,10 +127,15 @@ const PatentStrategy = () => {
 
       <div className="ip-portfolio">
         <h3>Planned IP Portfolio</h3>
-        <div className="timeline-grid">
+        <p className="portfolio-intro">
+          Strategic patent filing timeline designed to maximize protection while minimizing costs.
+        </p>
+        <div className="timeline-container">
           <div className="timeline-item glass-card">
-            <div className="timeline-date">Q2 2027</div>
-            <h4>Provisional Patent</h4>
+            <div className="timeline-header">
+              <div className="timeline-date">Q2 2027</div>
+              <h4>Provisional Patent</h4>
+            </div>
             <ul>
               <li>File core system architecture claims</li>
               <li>Establish priority date</li>
@@ -140,8 +145,10 @@ const PatentStrategy = () => {
           </div>
 
           <div className="timeline-item glass-card">
-            <div className="timeline-date">Q2 2028</div>
-            <h4>Utility Patent</h4>
+            <div className="timeline-header">
+              <div className="timeline-date">Q2 2028</div>
+              <h4>Utility Patent</h4>
+            </div>
             <ul>
               <li>Convert provisional to full utility patent</li>
               <li>Examination by USPTO</li>
@@ -151,8 +158,10 @@ const PatentStrategy = () => {
           </div>
 
           <div className="timeline-item glass-card">
-            <div className="timeline-date">2028-2029</div>
-            <h4>Continuation Patents</h4>
+            <div className="timeline-header">
+              <div className="timeline-date">2028-2029</div>
+              <h4>Continuation Patents</h4>
+            </div>
             <ul>
               <li>HomeSentinel: Privacy-first camera AI</li>
               <li>FleetBrain: Vehicle-specific AI</li>
@@ -162,8 +171,10 @@ const PatentStrategy = () => {
           </div>
 
           <div className="timeline-item glass-card">
-            <div className="timeline-date">2029+</div>
-            <h4>International Patents (Optional)</h4>
+            <div className="timeline-header">
+              <div className="timeline-date">2029+</div>
+              <h4>International Patents (Optional)</h4>
+            </div>
             <ul>
               <li>PCT filing for EU, China, Japan, Korea</li>
               <li>Strategic market protection</li>

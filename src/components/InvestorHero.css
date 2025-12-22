@@ -1,11 +1,11 @@
 .investor-hero {
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 4rem 2rem 2rem;
 }
 
 .hero-badge {
@@ -102,7 +102,7 @@
 
 .hero-problem {
   max-width: 1200px;
-  margin: 0 auto 6rem;
+  margin: 0 auto 3rem;
 }
 
 .hero-problem h2 {
@@ -158,6 +158,7 @@
   gap: 0.5rem;
   color: var(--text-secondary);
   animation: bounce 2s infinite;
+  margin-top: 2rem;
 }
 
 .scroll-arrow {

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Investment.css';
 
 const Investment = () => {
@@ -194,12 +195,9 @@ const Investment = () => {
           <button className="glow-button secondary">
             Download Pitch Deck
           </button>
-          <button
-            className="glow-button secondary"
-            onClick={() => window.open('http://localhost:5173', '_blank')}
-          >
+          <Link to="/glasses" className="glow-button secondary">
             View Product Demo Site →
-          </button>
+          </Link>
         </div>
 
         <div className="contact-info">

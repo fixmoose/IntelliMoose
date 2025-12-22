@@ -47,7 +47,7 @@ const Hero = () => {
             </button>
             <button
               className="glow-button secondary-cta"
-              onClick={() => window.open('http://localhost:5174', '_blank')}
+              onClick={() => window.location.href = '/'}
             >
               Investor Overview →
             </button>

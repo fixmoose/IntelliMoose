@@ -1,11 +1,11 @@
 .investment {
   background: linear-gradient(180deg, rgba(6, 182, 212, 0.05) 0%, rgba(139, 92, 246, 0.08) 50%, rgba(16, 185, 129, 0.05) 100%);
-  padding-bottom: 2rem;
+  padding-bottom: 0;
 }
 
 .investment-hero {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .investment-tagline {
@@ -18,7 +18,7 @@
 
 .raise-details {
   padding: 3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .raise-header {
@@ -116,7 +116,7 @@
 }
 
 .why-invest {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .why-invest h3 {
@@ -169,7 +169,7 @@
 
 .investment-terms {
   padding: 3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .investment-terms h3 {
@@ -212,10 +212,10 @@
 
 .cta-section {
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
   background: rgba(6, 182, 212, 0.05);
   border-radius: 20px;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
 }
 
 .cta-section h3 {
@@ -270,7 +270,7 @@
 
 .footer {
   text-align: center;
-  padding: 2rem 0 1rem;
+  padding: 2rem 0 0;
   color: var(--text-secondary);
   font-size: 0.9rem;
   border-top: 1px solid var(--border);
