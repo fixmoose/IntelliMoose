@@ -70,9 +70,84 @@ const SafetyEyePage = () => {
         </div>
       </section>
 
-      {/* The Solution */}
+      {/* The Product */}
       <section className="product-section dark">
-        <h2>The Solution: AI-Powered 24/7 Safety Camera</h2>
+        <h2>The Product: What You Actually Get</h2>
+
+        <div className="problem-description">
+          <p style={{ fontSize: '1.3rem', textAlign: 'center', marginBottom: '3rem' }}>
+            <strong>SafetyEye is a complete hardware + software system: weatherproof camera + edge AI processor + mobile/web dashboard.</strong>
+          </p>
+        </div>
+
+        <div className="features-grid">
+          <div className="feature-card">
+            <div className="feature-icon">📦</div>
+            <h3>Hardware Kit ($200 one-time)</h3>
+            <p>
+              <strong>What's in the box:</strong>
+              <br />• Amcrest 4K IP Camera with speaker ($150)
+              <br />• Raspberry Pi 5 (8GB) + Coral TPU ($140)
+              <br />• Weatherproof enclosure (IP67 rated) ($30)
+              <br />• Power over Ethernet injector ($20)
+              <br />• 50ft Ethernet cable ($15)
+              <br />• Mounting bracket and hardware ($10)
+              <br /><br />
+              <strong>Total retail: $365, bundled at $200</strong>
+              <br /><br />
+              <strong>Ships ready to use.</strong> Plug in power + Ethernet, mount camera, done.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">⚙️</div>
+            <h3>Optional Add-Ons</h3>
+            <p>
+              <strong>Solar Power Kit (+$200):</strong>
+              <br />• 100W solar panel
+              <br />• 50Ah lithium battery
+              <br />• Charge controller
+              <br />• Weatherproof battery box
+              <br />→ For sites without electrical hookup
+              <br /><br />
+              <strong>LTE Module (+$50):</strong>
+              <br />• 4G LTE cellular modem
+              <br />• SIM card included (data $15/month)
+              <br />→ For sites without WiFi/Ethernet
+              <br /><br />
+              <strong>Additional cameras:</strong> $150 each (qty discounts available)
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">💳</div>
+            <h3>Software Subscription ($50/month per camera)</h3>
+            <p>
+              <strong>Includes:</strong>
+              <br />• AI safety monitoring (9 hazard types)
+              <br />• Real-time audio alerts from camera
+              <br />• Text/email notifications to safety officers
+              <br />• Web + mobile dashboard (iOS/Android app)
+              <br />• 30-day video clip storage (violations only)
+              <br />• OSHA compliance reports (PDF export)
+              <br />• Software updates, new hazard detection models
+              <br /><br />
+              <strong>30-day free trial, cancel anytime</strong>
+            </p>
+          </div>
+        </div>
+
+        <div className="problem-description" style={{ marginTop: '3rem' }}>
+          <p style={{ fontSize: '1.2rem', textAlign: 'center' }}>
+            <strong>Buy hardware kit ($200) → Mount camera → Subscribe to monitoring ($50/month) → Get 24/7 safety alerts.</strong>
+            <br />Setup takes 10 minutes. Works 100% on-site (no cloud required). Video never leaves your property.
+          </p>
+        </div>
+      </section>
+
+      {/* The Solution */}
+      <section className="product-section">
+        <h2>How It Works: 24/7 AI Safety Monitoring</h2>
 
         <div className="demo-flow">
           <div className="demo-step">

@@ -65,9 +65,74 @@ const VoiceDocPage = () => {
         </div>
       </section>
 
-      {/* The Solution */}
+      {/* The Product */}
       <section className="product-section dark">
-        <h2>The Solution: Voice-to-Everything</h2>
+        <h2>The Product: What You Actually Get</h2>
+
+        <div className="problem-description">
+          <p style={{ fontSize: '1.3rem', textAlign: 'center', marginBottom: '3rem' }}>
+            <strong>VoiceDoc is a mobile app (iOS & Android) that works with any Bluetooth earpiece you already own.</strong>
+          </p>
+        </div>
+
+        <div className="features-grid">
+          <div className="feature-card">
+            <div className="feature-icon">📱</div>
+            <h3>The App</h3>
+            <p>
+              <strong>Download:</strong> App Store (iOS 14+) or Google Play (Android 10+)
+              <br /><br />
+              <strong>Size:</strong> 200MB download (includes AI models, runs 95% offline)
+              <br /><br />
+              <strong>Requirements:</strong> iPhone 11+ or equivalent Android (Snapdragon 855+). Works on 3-year-old phones.
+              <br /><br />
+              <strong>No special hardware needed.</strong> Uses your existing smartphone.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">🎧</div>
+            <h3>Compatible Bluetooth Earpieces (Optional)</h3>
+            <p>
+              <strong>Works with any Bluetooth earpiece you already own:</strong>
+              <br />• Jabra Talk 45 ($70)
+              <br />• Plantronics Voyager 5200 ($80)
+              <br />• Apple AirPods ($130)
+              <br />• Any Bluetooth headset (even $20 truck stop models)
+              <br /><br />
+              <strong>Or use phone speaker/mic</strong> (no earpiece required for basic use)
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">💳</div>
+            <h3>Subscription</h3>
+            <p>
+              <strong>Pricing:</strong> $30/month per worker
+              <br /><br />
+              <strong>Includes:</strong>
+              <br />• Unlimited voice documentation
+              <br />• All document types (work orders, invoices, compliance)
+              <br />• Offline mode (works without internet)
+              <br />• Integrations (QuickBooks, ServiceTitan, Jobber)
+              <br />• Free updates, NEC code database refreshes
+              <br /><br />
+              <strong>30-day free trial, cancel anytime</strong>
+            </p>
+          </div>
+        </div>
+
+        <div className="problem-description" style={{ marginTop: '3rem' }}>
+          <p style={{ fontSize: '1.2rem', textAlign: 'center' }}>
+            <strong>That's it. Download app → Connect Bluetooth earpiece → Start talking → Get documents.</strong>
+            <br />No hardware to buy. No installation. No training required. Works day one.
+          </p>
+        </div>
+      </section>
+
+      {/* The Solution */}
+      <section className="product-section">
+        <h2>How It Works: Voice-to-Everything</h2>
 
         <div className="demo-flow">
           <div className="demo-step">

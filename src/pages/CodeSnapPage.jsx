@@ -70,9 +70,77 @@ const CodeSnapPage = () => {
         </div>
       </section>
 
-      {/* The Solution */}
+      {/* The Product */}
       <section className="product-section dark">
-        <h2>The Solution: AI-Powered Code Compliance Camera</h2>
+        <h2>The Product: What You Actually Get</h2>
+
+        <div className="problem-description">
+          <p style={{ fontSize: '1.3rem', textAlign: 'center', marginBottom: '3rem' }}>
+            <strong>CodeSnap is a mobile app (iOS & Android) that uses your phone's camera to check electrical code compliance.</strong>
+          </p>
+        </div>
+
+        <div className="features-grid">
+          <div className="feature-card">
+            <div className="feature-icon">📱</div>
+            <h3>The App</h3>
+            <p>
+              <strong>Download:</strong> App Store (iOS 14+) or Google Play (Android 10+)
+              <br /><br />
+              <strong>Size:</strong> 100MB download (includes YOLOv8 vision model, NEC database)
+              <br /><br />
+              <strong>Requirements:</strong> Any smartphone with 12MP+ camera (iPhone 11+, or equivalent Android)
+              <br /><br />
+              <strong>Works with phone you already have.</strong> No special camera hardware needed.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">📸</div>
+            <h3>What's Included</h3>
+            <p>
+              <strong>On-Device:</strong>
+              <br />• AI vision model (85% accuracy offline)
+              <br />• NEC 2023/2020/2017 code database
+              <br />• Canadian Electrical Code (CEC)
+              <br />• Local amendments (auto-detected by GPS)
+              <br /><br />
+              <strong>Cloud-Enhanced (when online):</strong>
+              <br />• GPT-4 Vision for 95%+ accuracy
+              <br />• Detailed violation reports with photos
+              <br />• Export to PDF, email to inspectors
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">💳</div>
+            <h3>Subscription</h3>
+            <p>
+              <strong>Pricing:</strong> $50/month per electrician
+              <br /><br />
+              <strong>Includes:</strong>
+              <br />• Unlimited photo scans
+              <br />• All code versions (NEC, CEC, local)
+              <br />• Offline mode (basic detection)
+              <br />• Inspection-ready PDF reports
+              <br />• Code database updates (every 3 years when NEC updates)
+              <br /><br />
+              <strong>30-day free trial, cancel anytime</strong>
+            </p>
+          </div>
+        </div>
+
+        <div className="problem-description" style={{ marginTop: '3rem' }}>
+          <p style={{ fontSize: '1.2rem', textAlign: 'center' }}>
+            <strong>Download app → Point camera at panel/outlet/box → Get instant violation report.</strong>
+            <br />No hardware to buy. Uses phone camera. Works in basements with no signal. Fix violations before inspector arrives.
+          </p>
+        </div>
+      </section>
+
+      {/* The Solution */}
+      <section className="product-section">
+        <h2>How It Works: AI Code Compliance Camera</h2>
 
         <div className="demo-flow">
           <div className="demo-step">
