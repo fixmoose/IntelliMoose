@@ -4,11 +4,13 @@ import VoiceDocPage from './pages/VoiceDocPage';
 import CodeSnapPage from './pages/CodeSnapPage';
 import SafetyEyePage from './pages/SafetyEyePage';
 import PlatformPage from './pages/PlatformPage';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app">
         <Routes>
           <Route path="/" element={<HomePage />} />
