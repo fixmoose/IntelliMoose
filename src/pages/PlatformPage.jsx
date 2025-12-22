@@ -14,9 +14,9 @@ const PlatformPage = () => {
         </Link>
 
         <div className="product-hero-icon">🔗</div>
-        <h1 className="product-hero-title">The Platform Play</h1>
+        <h1 className="product-hero-title">The FixMoose Platform Strategy</h1>
         <p className="product-hero-tagline">
-          Why 4 Products Become Worth More Than the Sum of Their Parts
+          Free Tier Hook → Platform Lock-In → 9x Revenue Expansion → $1B+ Exit
         </p>
 
         <div className="product-hero-stats">
@@ -31,6 +31,200 @@ const PlatformPage = () => {
           <div className="hero-stat">
             <span className="hero-stat-value">5+ Acquirers</span>
             <span className="hero-stat-label">Strategic Buyers</span>
+          </div>
+        </div>
+      </section>
+
+      {/* The Trojan Horse: Free Tier Strategy */}
+      <section className="product-section dark">
+        <h2>The Trojan Horse: How Free FixMoose Basic Drives the Entire Business</h2>
+
+        <div className="problem-description">
+          <p style={{ fontSize: '1.2rem', marginBottom: '2rem' }}>
+            <strong>This is the key insight investors need to understand:</strong> We're not selling 4 separate products.
+            We're giving away a free platform (FixMoose Basic) that comes with every AI widget purchase, then using
+            intentional limits to force upgrades and expansion. It's the Slack/Dropbox playbook for skilled trades.
+          </p>
+        </div>
+
+        <div className="tech-stack">
+          <div className="tech-layer">
+            <h3>Step 1: The Hook - FREE FixMoose Basic (Included with Every Widget)</h3>
+            <p>
+              Electrician buys VoiceDoc ($30/month) to save time on paperwork. Gets FREE FixMoose Basic account automatically:
+            </p>
+            <ul>
+              <li>5 active jobs (6th job triggers upgrade prompt)</li>
+              <li>100MB storage (photos, voice recordings, documents)</li>
+              <li>25 customer contacts</li>
+              <li>Basic invoicing and work orders</li>
+              <li>Mobile app (iOS & Android)</li>
+            </ul>
+            <p>
+              <strong>Customer perception:</strong> "I'm just buying VoiceDoc, the platform is a bonus."
+              <br />
+              <strong>Reality:</strong> We're getting them hooked on the platform with generous-seeming limits designed to hit in 2-3 months.
+            </p>
+          </div>
+
+          <div className="tech-layer">
+            <h3>Step 2: The Trap - Intentional Limits Force Upgrade Decision</h3>
+            <p>
+              After 2-3 months (varies by customer activity), contractor hits one of the limits:
+            </p>
+            <ul>
+              <li><strong>Job limit:</strong> "You've completed 5 jobs. Upgrade to Pro to add more jobs or archive old ones (losing searchable history)."</li>
+              <li><strong>Storage limit:</strong> "You've used 95MB of 100MB. Upgrade to Pro (10GB) or delete photos/recordings (losing documentation)."</li>
+              <li><strong>Customer limit:</strong> "You have 25 customers. Upgrade to Pro for unlimited customer database."</li>
+            </ul>
+            <p>
+              <strong>The Psychology:</strong> All their historical job data is trapped in FixMoose. Customer contacts, pricing history,
+              material lists, compliance docs—3 months of work. Switching to a competitor means losing this data. Export doesn't capture
+              the relationships and context. Upgrade cost ($49/month) is less painful than switching cost (re-entering all data, retraining workflow).
+            </p>
+            <p>
+              <strong>Conversion Rate:</strong> 60%+ upgrade to FixMoose Pro within 4 months. Industry-leading for freemium SaaS.
+            </p>
+          </div>
+
+          <div className="tech-layer">
+            <h3>Step 3: Platform Expansion - Add More Widgets</h3>
+            <p>
+              Now customer is paying $79/month (VoiceDoc $30 + FixMoose Pro $49). All data flows into FixMoose. We upsell additional widgets:
+            </p>
+            <ul>
+              <li><strong>CodeSnap ($50/month):</strong> "Prevent failed inspections. Code violation reports auto-save to FixMoose job records."</li>
+              <li><strong>SafetyEye ($200 + $50/month):</strong> "Get insurance discounts. Safety incidents auto-log to FixMoose for OSHA reports."</li>
+            </ul>
+            <p>
+              <strong>Widget Attach Rate:</strong> 2.1 widgets per customer by month 9. Each widget makes FixMoose more valuable (more data, more integrations, more lock-in).
+            </p>
+            <p>
+              <strong>Customer is now at $179/month:</strong> VoiceDoc ($30) + CodeSnap ($50) + SafetyEye ($50) + FixMoose Pro ($49).
+            </p>
+          </div>
+
+          <div className="tech-layer">
+            <h3>Step 4: Team Plan Upsell - Multi-User Lock-In</h3>
+            <p>
+              Contractor grows from solo operator to 3-person team. Needs multi-user access, permission layers, contractor-only notes (hidden from homeowners).
+            </p>
+            <ul>
+              <li><strong>FixMoose Teams:</strong> $99/month base + $20/user (3 users = $99 + $60 = $159/month for platform)</li>
+              <li><strong>Plus widgets:</strong> VoiceDoc licenses for 2 more workers ($60), CodeSnap for lead electrician ($50), SafetyEye (shared, no extra cost)</li>
+            </ul>
+            <p>
+              <strong>Total Monthly Spend (Month 12):</strong> $269/month
+              <br />
+              VoiceDoc: $90 (3 users × $30)
+              <br />
+              CodeSnap: $50 (lead electrician only)
+              <br />
+              SafetyEye: $50 (job site camera)
+              <br />
+              FixMoose Teams: $79 ($99 base, 2 additional users discounted to $40 total in bundle pricing)
+            </p>
+          </div>
+
+          <div className="tech-layer">
+            <h3>Step 5: The Network Effect - Homeowner Portal Creates Viral Lock-In</h3>
+            <p>
+              FixMoose Pro includes customer portal. Homeowners can:
+            </p>
+            <ul>
+              <li>See invoices and approve work online</li>
+              <li>View job photos and progress updates</li>
+              <li>Access historical work records (permits, warranties, compliance docs)</li>
+              <li>Pay invoices via credit card (FixMoose processes payments, takes 2.5% fee)</li>
+            </ul>
+            <p>
+              <strong>The Trap (Part 2):</strong> After 6 months, homeowner expects this experience. When contractor tries to switch
+              to a competitor platform, homeowner says "I can't see my invoice. Where's the portal link?" Contractor stays on FixMoose to keep customers happy.
+            </p>
+            <p>
+              <strong>Viral Growth:</strong> Homeowner hires different contractor for different job (plumber for kitchen, electrician for panel).
+              Sees FixMoose portal, asks their contractor "Why don't you use FixMoose like the last guy?" Word-of-mouth acquisition at zero CAC.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Tiers */}
+      <section className="product-section">
+        <h2>FixMoose Pricing Tiers: Designed for Upsell</h2>
+
+        <div className="acquirers-grid">
+          <div className="acquirer-card">
+            <h4>FixMoose Basic (FREE)</h4>
+            <p>
+              <strong>Included with any AI widget subscription</strong>
+            </p>
+            <ul style={{ textAlign: 'left', marginTop: '1rem' }}>
+              <li>5 active jobs</li>
+              <li>100MB storage</li>
+              <li>25 customer contacts</li>
+              <li>Basic invoicing</li>
+              <li>Mobile app access</li>
+            </ul>
+            <p style={{ marginTop: '1rem' }}>
+              <strong>Goal:</strong> Get contractor hooked. Generous enough to be useful, limited enough to hit ceiling in 2-3 months.
+            </p>
+          </div>
+
+          <div className="acquirer-card">
+            <h4>FixMoose Pro ($49/month)</h4>
+            <p>
+              <strong>For growing contractors</strong>
+            </p>
+            <ul style={{ textAlign: 'left', marginTop: '1rem' }}>
+              <li>Unlimited jobs</li>
+              <li>10GB storage</li>
+              <li>Unlimited customers</li>
+              <li>Customer portal (homeowner access)</li>
+              <li>Permission layers (show/hide notes)</li>
+              <li>Priority support</li>
+              <li>QuickBooks/ServiceTitan sync</li>
+            </ul>
+            <p style={{ marginTop: '1rem' }}>
+              <strong>Conversion driver:</strong> Job/storage limits. Customer portal (homeowners demand it).
+            </p>
+          </div>
+
+          <div className="acquirer-card">
+            <h4>FixMoose Teams ($99/month + $20/user)</h4>
+            <p>
+              <strong>For contractors with 2+ employees</strong>
+            </p>
+            <ul style={{ textAlign: 'left', marginTop: '1rem' }}>
+              <li>Everything in Pro</li>
+              <li>Multi-user access with roles</li>
+              <li>Contractor-only notes (hidden from homeowners)</li>
+              <li>Team activity tracking</li>
+              <li>Batch invoicing</li>
+              <li>API access (custom integrations)</li>
+            </ul>
+            <p style={{ marginTop: '1rem' }}>
+              <strong>Conversion driver:</strong> Team growth. Need for internal notes (pricing, issues, change orders).
+            </p>
+          </div>
+
+          <div className="acquirer-card">
+            <h4>FixMoose Enterprise ($299/month)</h4>
+            <p>
+              <strong>For contractors with 10+ employees</strong>
+            </p>
+            <ul style={{ textAlign: 'left', marginTop: '1rem' }}>
+              <li>Everything in Teams</li>
+              <li>Unlimited users (volume discount after 20)</li>
+              <li>White-label option</li>
+              <li>Custom integrations</li>
+              <li>Dedicated account manager</li>
+              <li>SLA guarantees (99.9% uptime)</li>
+              <li>HIPAA/SOC2 compliance</li>
+            </ul>
+            <p style={{ marginTop: '1rem' }}>
+              <strong>Target:</strong> Large contractors (50-500 workers). $299 base + $15/user for 50 users = $1,049/month.
+            </p>
           </div>
         </div>
       </section>

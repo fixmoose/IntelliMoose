@@ -15,24 +15,24 @@ const HomePage = () => {
         </div>
 
         <h1 className="hero-title">
-          IntelliMoose
+          FixMoose
           <br />
-          <span className="gradient-text">AI Infrastructure for Skilled Trades</span>
+          <span className="gradient-text">The AI-Powered Operating System for Skilled Trades</span>
         </h1>
 
         <p className="hero-tagline">
-          One platform. Four breakthrough products. $500B+ market opportunity.
+          Job management platform that contractors actually use—because AI handles the data entry.
         </p>
 
         <p className="hero-description">
-          We're building the AI operating system for 3.5M skilled tradespeople in the US alone.
-          Voice-to-documentation, computer vision for code compliance, AI safety monitoring, and AR guidance—
-          all working together as a unified platform.
+          FixMoose is the core platform for 3.5M skilled tradespeople. Job tracking, invoicing, customer management, compliance—
+          all powered by AI that listens to your voice, watches through your camera, and monitors job sites automatically.
+          <strong> Get started FREE, upgrade as you grow.</strong>
         </p>
 
         <div className="hero-cta">
-          <button className="glow-button primary" onClick={() => document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' })}>
-            Explore Our Products
+          <button className="glow-button primary" onClick={() => document.getElementById('platform')?.scrollIntoView({ behavior: 'smooth' })}>
+            See How FixMoose Works
           </button>
           <button className="glow-button secondary" onClick={() => document.getElementById('investment')?.scrollIntoView({ behavior: 'smooth' })}>
             View Investment Opportunity
@@ -41,20 +41,20 @@ const HomePage = () => {
 
         <div className="hero-metrics">
           <div className="metric">
-            <div className="metric-value">$500B+</div>
-            <div className="metric-label">Total Addressable Market</div>
+            <div className="metric-value">FREE</div>
+            <div className="metric-label">Start with Basic Plan</div>
           </div>
           <div className="metric">
-            <div className="metric-value">4 Products</div>
-            <div className="metric-label">Launching in 18 Months</div>
+            <div className="metric-value">$30 → $269</div>
+            <div className="metric-label">Revenue Per User (12 months)</div>
           </div>
           <div className="metric">
             <div className="metric-value">3-4 Patents</div>
             <div className="metric-label">Defensible IP Portfolio</div>
           </div>
           <div className="metric">
-            <div className="metric-value">6 Weeks</div>
-            <div className="metric-label">To Working Prototypes</div>
+            <div className="metric-value">$1-3B</div>
+            <div className="metric-label">Exit Target (4-6 years)</div>
           </div>
         </div>
       </section>
@@ -101,11 +101,138 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Products Overview */}
-      <section className="products-overview" id="products">
-        <h2 className="section-heading">Our Product Suite</h2>
+      {/* How FixMoose Works */}
+      <section className="platform-section" id="platform">
+        <h2 className="section-heading">How FixMoose Works</h2>
         <p className="section-subheading">
-          Four products. One platform. Built for acquisition.
+          One platform, three AI input methods. Start free, upgrade as you grow.
+        </p>
+
+        <div className="platform-diagram">
+          <div className="platform-core">
+            <h3>FixMoose Core Platform</h3>
+            <p>Job management • Invoicing • Customer CRM • Compliance tracking • Material lists • Photo documentation</p>
+            <div className="platform-tiers">
+              <span className="tier-badge free">Basic: FREE (5 jobs, 100MB)</span>
+              <span className="tier-badge">Pro: $49/mo</span>
+              <span className="tier-badge">Teams: $99/mo</span>
+              <span className="tier-badge">Enterprise: $299/mo</span>
+            </div>
+          </div>
+
+          <div className="ai-widgets-header">
+            <h3>+ AI Input Widgets (Optional Add-Ons)</h3>
+            <p>Each widget comes with FREE FixMoose Basic account</p>
+          </div>
+
+          <div className="widgets-grid">
+            <div className="widget-card">
+              <div className="widget-icon">🎙️</div>
+              <h4>VoiceDoc</h4>
+              <p><strong>$30/month</strong></p>
+              <p>Talk while you work. AI extracts materials, labor, generates work orders and invoices from your voice.</p>
+              <Link to="/voicedoc" className="widget-link">Learn More →</Link>
+            </div>
+
+            <div className="widget-card">
+              <div className="widget-icon">📸</div>
+              <h4>CodeSnap</h4>
+              <p><strong>$50/month</strong></p>
+              <p>Point phone at electrical panel. AI detects code violations, references NEC, prevents failed inspections.</p>
+              <Link to="/codesnap" className="widget-link">Learn More →</Link>
+            </div>
+
+            <div className="widget-card">
+              <div className="widget-icon">👁️</div>
+              <h4>SafetyEye</h4>
+              <p><strong>$200 + $50/month</strong></p>
+              <p>Camera watches job site 24/7. AI detects PPE violations, hazards, near-misses. Audio alerts + OSHA reports.</p>
+              <Link to="/safetyeye" className="widget-link">Learn More →</Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="platform-strategy">
+          <h3>The Trojan Horse Strategy: Free Tier → Platform Lock-In</h3>
+          <div className="strategy-flow">
+            <div className="strategy-step">
+              <div className="step-number">1</div>
+              <h4>Hook with Free Tier</h4>
+              <p>Electrician buys VoiceDoc ($30/month) to save time on paperwork. Gets FREE FixMoose Basic (5 jobs, 100MB).</p>
+            </div>
+            <div className="strategy-arrow">→</div>
+            <div className="strategy-step">
+              <div className="step-number">2</div>
+              <h4>Hit Limits in 2-3 Months</h4>
+              <p>After 6th job or 100MB storage, can't add more jobs. All historical data trapped in platform. Must upgrade to continue.</p>
+            </div>
+            <div className="strategy-arrow">→</div>
+            <div className="strategy-step">
+              <div className="step-number">3</div>
+              <h4>Upsell to Pro ($49/month)</h4>
+              <p>Unlocks unlimited jobs, 10GB storage, homeowner portal. Total spend: $79/month. Homeowners see invoices, approve work.</p>
+            </div>
+            <div className="strategy-arrow">→</div>
+            <div className="strategy-step">
+              <div className="step-number">4</div>
+              <h4>Add More Widgets</h4>
+              <p>Buys CodeSnap ($50/month) to prevent failed inspections. Then SafetyEye ($50/month) for insurance discounts. Total: $179/month.</p>
+            </div>
+            <div className="strategy-arrow">→</div>
+            <div className="strategy-step">
+              <div className="step-number">5</div>
+              <h4>Grow Team → Teams Plan</h4>
+              <p>Hires 2 more electricians. Needs Teams plan ($99/month + $20/user) for permissions, contractor-only notes. Total: $269/month.</p>
+            </div>
+          </div>
+
+          <div className="ltv-callout">
+            <h3>Lifetime Value Expansion</h3>
+            <p>
+              <strong>Month 1:</strong> $30/month (VoiceDoc only)
+              <br />
+              <strong>Month 3:</strong> $79/month (+ FixMoose Pro upgrade)
+              <br />
+              <strong>Month 6:</strong> $129/month (+ CodeSnap widget)
+              <br />
+              <strong>Month 9:</strong> $179/month (+ SafetyEye widget)
+              <br />
+              <strong>Month 12:</strong> $269/month (+ Teams plan for 3 users)
+            </p>
+            <p className="ltv-highlight">
+              <strong>9x revenue expansion in 12 months.</strong> Average customer LTV: $3,200 in year 1, $10,000+ over 3 years.
+            </p>
+          </div>
+        </div>
+
+        <div className="platform-moats">
+          <h3>Why Customers Can't Leave (Network Effects & Data Lock-In)</h3>
+          <div className="moats-grid">
+            <div className="moat-card">
+              <h4>📊 Historical Data Trap</h4>
+              <p>3 years of job history, customer notes, pricing, materials. Switching means losing all context. Export doesn't capture relationships.</p>
+            </div>
+            <div className="moat-card">
+              <h4>👥 Customer Expectations</h4>
+              <p>Homeowners trained on FixMoose portal. They expect to see invoices, approve work, view photos. Switching breaks customer experience.</p>
+            </div>
+            <div className="moat-card">
+              <h4>🔐 Permission Layers</h4>
+              <p>Contractor sees all notes (even violations). Homeowner sees approved items only. Inspector sees compliance-only view. Custom roles = lock-in.</p>
+            </div>
+            <div className="moat-card">
+              <h4>🏆 Team Training & Certifications</h4>
+              <p>Team certified on SafetyEye, trained on VoiceDoc workflows. Switching means retraining entire crew. Muscle memory = moat.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Deep Dives into Each Widget */}
+      <section className="products-overview" id="products">
+        <h2 className="section-heading">AI Widget Deep Dives</h2>
+        <p className="section-subheading">
+          Click any widget below to see full technical details, use cases, and ROI analysis.
         </p>
 
         <div className="products-grid">
@@ -115,7 +242,8 @@ const HomePage = () => {
             <h3>VoiceDoc</h3>
             <p className="product-tagline">Voice → Documentation in Real-Time</p>
             <p className="product-description">
-              Talk while you work. AI generates work orders, material lists, invoices, and compliance notes automatically.
+              "Roger Observe" → talk while you work → "Roger Stop" → get work orders, invoices, compliance docs.
+              Works with any Bluetooth earpiece. 95% offline. Includes FREE FixMoose Basic.
             </p>
             <div className="product-stats">
               <div className="stat">
@@ -124,7 +252,7 @@ const HomePage = () => {
               </div>
               <div className="stat">
                 <span className="stat-value">$30/mo</span>
-                <span className="stat-label">SaaS Pricing</span>
+                <span className="stat-label">+ FREE FixMoose</span>
               </div>
               <div className="stat">
                 <span className="stat-value">10-14 days</span>
@@ -140,16 +268,17 @@ const HomePage = () => {
             <h3>CodeSnap</h3>
             <p className="product-tagline">Instant Code Compliance Checking</p>
             <p className="product-description">
-              Point your phone at any electrical panel. AI identifies violations, references NEC codes, generates compliance reports.
+              Point phone at electrical panel → AI detects NEC violations → get inspection-ready PDF.
+              Works offline with on-device YOLOv8. Includes FREE FixMoose Basic.
             </p>
             <div className="product-stats">
               <div className="stat">
                 <span className="stat-value">$7K avg</span>
-                <span className="stat-label">Cost Prevented</span>
+                <span className="stat-label">Re-work Prevented</span>
               </div>
               <div className="stat">
                 <span className="stat-value">$50/mo</span>
-                <span className="stat-label">SaaS Pricing</span>
+                <span className="stat-label">+ FREE FixMoose</span>
               </div>
               <div className="stat">
                 <span className="stat-value">10-14 days</span>
@@ -165,7 +294,8 @@ const HomePage = () => {
             <h3>SafetyEye</h3>
             <p className="product-tagline">AI-Powered Safety Monitoring</p>
             <p className="product-description">
-              $150 camera watches job sites 24/7. Detects PPE violations, hazards, near-misses. Audio alerts + OSHA reports.
+              $200 camera kit watches job sites 24/7 → detects PPE violations, hazards, near-misses → real-time audio alerts + OSHA reports.
+              Includes FREE FixMoose Basic.
             </p>
             <div className="product-stats">
               <div className="stat">
@@ -174,7 +304,7 @@ const HomePage = () => {
               </div>
               <div className="stat">
                 <span className="stat-value">$200 + $50/mo</span>
-                <span className="stat-label">Hardware + SaaS</span>
+                <span className="stat-label">+ FREE FixMoose</span>
               </div>
               <div className="stat">
                 <span className="stat-value">12-16 days</span>
@@ -184,13 +314,14 @@ const HomePage = () => {
             <span className="product-cta">Learn More →</span>
           </Link>
 
-          {/* Platform Vision */}
+          {/* Platform Strategy */}
           <Link to="/platform" className="product-card highlight">
             <div className="product-icon">🔗</div>
-            <h3>The Platform Play</h3>
+            <h3>Platform Strategy Deep Dive</h3>
             <p className="product-tagline">Why This Becomes a $1B+ Exit</p>
             <p className="product-description">
-              Individual products prove the tech. Together, they create network effects, proprietary datasets, and acquisition leverage.
+              Free tier lock-in → network effects → proprietary datasets → multi-product bundling → acquisition leverage.
+              The Slack/Dropbox playbook for skilled trades.
             </p>
             <div className="product-stats">
               <div className="stat">
@@ -219,16 +350,17 @@ const HomePage = () => {
           <div className="investment-card">
             <h3>The Ask</h3>
             <div className="ask-amount">$1.5M</div>
-            <p>Seed round to build all 4 products, file patents, and launch with 100+ beta customers</p>
+            <p>Seed round to build FixMoose platform + 3 AI widgets, file patents, and launch with 100+ beta customers</p>
           </div>
 
           <div className="investment-card">
             <h3>18-Month Milestones</h3>
             <ul className="milestones-list">
-              <li>✓ 4 working products launched</li>
+              <li>✓ FixMoose platform + 3 AI widgets launched</li>
               <li>✓ 3-4 provisional patents filed</li>
-              <li>✓ 100+ paying customers</li>
-              <li>✓ $250K ARR</li>
+              <li>✓ 100+ paying customers ($30/month avg)</li>
+              <li>✓ 40% upsold to FixMoose Pro ($79/month avg)</li>
+              <li>✓ $350K ARR (with expansion revenue)</li>
               <li>✓ Series A ready ($8-12M at $40-60M valuation)</li>
             </ul>
           </div>
@@ -237,7 +369,7 @@ const HomePage = () => {
             <h3>Use of Funds</h3>
             <div className="funds-breakdown">
               <div className="fund-item">
-                <span>Product Development</span>
+                <span>Product Development (Platform + Widgets)</span>
                 <span>$600K (40%)</span>
               </div>
               <div className="fund-item">
@@ -256,34 +388,107 @@ const HomePage = () => {
           </div>
         </div>
 
+        <div className="platform-economics">
+          <h3>Why Investors Love This Model: The Slack/Dropbox Playbook</h3>
+          <div className="economics-grid">
+            <div className="econ-card">
+              <h4>Free Tier Hook</h4>
+              <p>Every AI widget ($30-50/month) includes FREE FixMoose Basic (5 jobs, 100MB). Customer acquires themselves—no sales needed.</p>
+              <p><strong>CAC: $50</strong> (just Google Ads, no salespeople)</p>
+            </div>
+            <div className="econ-card">
+              <h4>Forced Upgrade in 2-3 Months</h4>
+              <p>After 6th job, contractor hits free tier limit. All historical data locked in platform. Must upgrade to FixMoose Pro ($49/month) to continue.</p>
+              <p><strong>Conversion rate: 60%+</strong> (historical data = hostage)</p>
+            </div>
+            <div className="econ-card">
+              <h4>Widget Expansion</h4>
+              <p>Customer buys 2nd widget (CodeSnap $50/month), then 3rd (SafetyEye $50/month). Each widget feeds into same FixMoose platform—more lock-in.</p>
+              <p><strong>Attach rate: 2.1 widgets per customer</strong> (by month 9)</p>
+            </div>
+            <div className="econ-card">
+              <h4>Team Plan Upsell</h4>
+              <p>Contractor grows team, needs multi-user access. Upgrades to Teams plan ($99/month + $20/user). Adds 2 workers = $139/month + widgets.</p>
+              <p><strong>Team conversion: 30%</strong> (of customers by year 2)</p>
+            </div>
+          </div>
+
+          <div className="ltv-breakdown">
+            <h3>LTV Expansion: $30 → $269 in 12 Months</h3>
+            <div className="ltv-timeline">
+              <div className="ltv-month">
+                <div className="month-label">Month 1</div>
+                <div className="month-revenue">$30</div>
+                <div className="month-detail">VoiceDoc only + FREE FixMoose Basic</div>
+              </div>
+              <div className="ltv-arrow">→</div>
+              <div className="ltv-month">
+                <div className="month-label">Month 3</div>
+                <div className="month-revenue">$79</div>
+                <div className="month-detail">Hits 5-job limit, upgrades to FixMoose Pro ($49)</div>
+              </div>
+              <div className="ltv-arrow">→</div>
+              <div className="ltv-month">
+                <div className="month-label">Month 6</div>
+                <div className="month-revenue">$129</div>
+                <div className="month-detail">Adds CodeSnap widget ($50) to prevent failed inspections</div>
+              </div>
+              <div className="ltv-arrow">→</div>
+              <div className="ltv-month">
+                <div className="month-label">Month 9</div>
+                <div className="month-revenue">$179</div>
+                <div className="month-detail">Adds SafetyEye widget ($50) for insurance discounts</div>
+              </div>
+              <div className="ltv-arrow">→</div>
+              <div className="ltv-month">
+                <div className="month-label">Month 12</div>
+                <div className="month-revenue">$269</div>
+                <div className="month-detail">Grows team, upgrades to Teams plan ($99 + $60 for 3 users)</div>
+              </div>
+            </div>
+            <div className="ltv-summary">
+              <p><strong>9x revenue expansion in 12 months.</strong></p>
+              <p>Year 1 LTV: $3,200 | Year 3 LTV: $10,000+ | Churn: &lt;5% annually (data lock-in)</p>
+              <p><strong>LTV/CAC Ratio: 64:1</strong> (by year 3) — Best-in-class SaaS economics</p>
+            </div>
+          </div>
+        </div>
+
         <div className="exit-strategy">
           <h3>Exit Strategy: Multiple Paths to $1B+</h3>
+          <p className="exit-intro">
+            Platform strategy creates competitive bidding among 5+ strategic acquirers. Each sees different value proposition:
+          </p>
           <div className="acquirers-grid">
             <div className="acquirer-card">
-              <h4>Apple</h4>
-              <p>Spatial computing for Vision Pro enterprise</p>
-              <span className="comparable">Ref: Matterport $3.5B valuation</span>
+              <h4>Salesforce</h4>
+              <p>Service Cloud AI layer for field service. FixMoose = pre-built vertical SaaS with 100K+ contractors locked in.</p>
+              <span className="comparable">Ref: Slack $28B (free tier → platform lock-in)</span>
             </div>
             <div className="acquirer-card">
               <h4>Microsoft</h4>
-              <p>Azure AI for field service</p>
-              <span className="comparable">Ref: Nuance $20B</span>
+              <p>Azure AI for Dynamics 365 Field Service. Wants AI widgets + contractor network for enterprise upsell.</p>
+              <span className="comparable">Ref: Nuance $20B (vertical AI)</span>
             </div>
             <div className="acquirer-card">
-              <h4>Salesforce</h4>
-              <p>Service Cloud AI layer</p>
-              <span className="comparable">Ref: Slack $28B</span>
+              <h4>ServiceTitan / Jobber / Housecall Pro</h4>
+              <p>FSM platforms need AI layer. FixMoose adds voice, vision, safety—missing pieces in their stack.</p>
+              <span className="comparable">Ref: ServiceTitan $9.5B valuation (2023)</span>
             </div>
             <div className="acquirer-card">
               <h4>Insurance (Travelers, Liberty Mutual)</h4>
-              <p>Risk reduction tech for workers' comp</p>
-              <span className="comparable">Ref: Motive $3.5B</span>
+              <p>Workers' comp carriers want safety data. SafetyEye = $40B market for risk reduction tech.</p>
+              <span className="comparable">Ref: Motive $3.5B (fleet safety platform)</span>
             </div>
             <div className="acquirer-card">
-              <h4>Tool OEMs (Hilti, DeWalt, Bosch)</h4>
-              <p>White-label AI platform</p>
-              <span className="comparable">Ref: ServiceMax $915M</span>
+              <h4>Tool OEMs (Hilti, DeWalt, Milwaukee)</h4>
+              <p>White-label FixMoose for contractors who buy their tools. Locks in hardware + software revenue.</p>
+              <span className="comparable">Ref: ServiceMax $915M (field service platform)</span>
             </div>
+          </div>
+          <div className="exit-timeline">
+            <p><strong>Target: $1-3B exit in 4-6 years</strong></p>
+            <p>Year 2: Series A ($40-60M valuation) | Year 4: Series B ($200-300M valuation) | Year 6: Acquisition ($1-3B) or IPO</p>
           </div>
         </div>
       </section>
@@ -292,7 +497,10 @@ const HomePage = () => {
       <section className="cta-section">
         <h2>Ready to Build the Future of Skilled Trades?</h2>
         <p>
-          We have working prototypes in 6 weeks. Paying customers in 12 weeks. Series A in 18 months.
+          We're building the Slack/Dropbox of skilled trades. Free tier hook → platform lock-in → 9x LTV expansion → $1B+ exit.
+        </p>
+        <p>
+          Working prototypes in 6 weeks. Paying customers in 12 weeks. 100+ customers + Series A in 18 months.
         </p>
         <div className="cta-buttons">
           <a href="mailto:invest@intellimoose.com" className="glow-button primary">

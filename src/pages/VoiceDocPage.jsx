@@ -130,6 +130,51 @@ const VoiceDocPage = () => {
         </div>
       </section>
 
+      {/* FREE FixMoose Basic Callout */}
+      <section className="product-section dark">
+        <div className="fixmoose-callout">
+          <div className="fixmoose-badge">🎁 INCLUDED FREE</div>
+          <h2>Every VoiceDoc Subscription Includes FREE FixMoose Basic Account</h2>
+
+          <div className="fixmoose-details">
+            <p style={{ fontSize: '1.2rem', textAlign: 'center', marginBottom: '2rem' }}>
+              VoiceDoc generates your work orders and invoices. FixMoose stores them, organizes them, and shares them with customers.
+            </p>
+
+            <div className="fixmoose-grid">
+              <div className="fixmoose-feature">
+                <h3>✓ What's Included (FREE)</h3>
+                <ul>
+                  <li>Store up to 5 active jobs</li>
+                  <li>100MB storage (photos, docs, recordings)</li>
+                  <li>25 customer contacts</li>
+                  <li>Basic invoicing and work orders</li>
+                  <li>Mobile app access (iOS & Android)</li>
+                </ul>
+              </div>
+
+              <div className="fixmoose-feature">
+                <h3>🚀 Upgrade to FixMoose Pro ($49/month)</h3>
+                <ul>
+                  <li>Unlimited jobs</li>
+                  <li>10GB storage</li>
+                  <li>Unlimited customer contacts</li>
+                  <li>Customer portal (homeowners see invoices, approve work)</li>
+                  <li>Permission layers (show/hide contractor notes)</li>
+                  <li>Priority support</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="fixmoose-note">
+              <p><strong>Why FixMoose?</strong> All your AI widgets (VoiceDoc, CodeSnap, SafetyEye) feed into one central platform.
+              Job data, customer history, photos, compliance reports—everything in one place. Start free, upgrade when you outgrow the limits.</p>
+              <Link to="/platform" className="fixmoose-link">Learn more about FixMoose Platform →</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* The Solution */}
       <section className="product-section">
         <h2>How It Works: Voice-to-Everything</h2>
