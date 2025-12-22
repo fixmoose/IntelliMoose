@@ -232,7 +232,7 @@ For questions regarding investment risks or due diligence, please contact:
 
 **Dejan Obradovic**
 Founder & CEO, IntelliMoose
-Email: invest@intellimoose.ai
+Email: invest@intellimoose.com
 
 ---
 

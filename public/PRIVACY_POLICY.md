@@ -139,7 +139,7 @@ Depending on your jurisdiction, you may have the following rights:
 ### Withdrawal of Consent
 - Withdraw consent for certain processing activities
 
-**To exercise these rights, contact us at privacy@intellimoose.ai**
+**To exercise these rights, contact us at privacy@intellimoose.com**
 
 ---
 
@@ -190,7 +190,7 @@ If you are a California resident, you have additional rights under the Californi
 - Right to deletion
 - Right to non-discrimination for exercising privacy rights
 
-Contact us at privacy@intellimoose.ai to exercise these rights.
+Contact us at privacy@intellimoose.com to exercise these rights.
 
 ---
 
@@ -228,12 +228,12 @@ We may update this Privacy Policy from time to time. Changes will be posted on t
 For questions, concerns, or requests regarding this Privacy Policy or your personal information:
 
 **IntelliMoose**
-Email: privacy@intellimoose.ai
-Investment Inquiries: invest@intellimoose.ai
+Email: privacy@intellimoose.com
+Investment Inquiries: invest@intellimoose.com
 
 **Data Protection Officer** (if applicable):
 Dejan Obradovic
-Email: privacy@intellimoose.ai
+Email: privacy@intellimoose.com
 
 ---
 

@@ -99,9 +99,8 @@ const LegalFooter = () => {
                 <div className="footer-domains">
                   <h5>🌐 Secure Your Domains</h5>
                   <p className="domains-note">
-                    <strong>intellimoose.com</strong> and <strong>intellimoose.ai</strong> are currently available.
-                    We recommend securing these domains immediately upon incorporation to protect the brand and establish
-                    online presence. Estimated cost: $20-50/year per domain.
+                    <strong>intellimoose.com</strong> has been secured. We recommend also acquiring <strong>intellimoose.ai</strong> to protect
+                    the brand across AI-focused domain extensions. Estimated cost: $20-50/year per domain.
                   </p>
                 </div>
               </td>
@@ -115,7 +114,7 @@ const LegalFooter = () => {
                     <strong>Status:</strong> Pre-Incorporation | Delaware C-Corp Formation Pending
                   </p>
                   <p className="footer-contact">
-                    <strong>Contact:</strong> Dejan Obradovic | invest@intellimoose.ai
+                    <strong>Contact:</strong> Dejan Obradovic | invest@intellimoose.com
                   </p>
                   <p className="footer-version">
                     Site Version 1.0 | Last Updated: December 21, 2025 | For Private Distribution Only

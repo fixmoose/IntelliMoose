@@ -202,7 +202,7 @@ const Investment = () => {
 
         <div className="contact-info">
           <p><strong>Contact:</strong></p>
-          <p>Email: invest@intellimoose.ai</p>
+          <p>Email: invest@intellimoose.com</p>
         </div>
       </div>
 

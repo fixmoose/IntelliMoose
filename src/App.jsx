@@ -1,14 +1,17 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import InvestorPage from './pages/InvestorPage';
-import IntelliMoosePage from './pages/IntelliMoosePage';
+import HomePage from './pages/HomePage';
+import VoiceDocPage from './pages/VoiceDocPage';
+import './App.css';
 
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<InvestorPage />} />
-        <Route path="/intellimoose" element={<IntelliMoosePage />} />
-      </Routes>
+      <div className="app">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/voicedoc" element={<VoiceDocPage />} />
+        </Routes>
+      </div>
     </Router>
   );
 }

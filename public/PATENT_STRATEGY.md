@@ -378,7 +378,7 @@ I'd love a 15-minute call to discuss. Available [your availability].
 Best,
 Dejan Obradovic
 Founder, IntelliMoose
-dejan@intellimoose.ai
+dejan@intellimoose.com
 ```
 
 ---
