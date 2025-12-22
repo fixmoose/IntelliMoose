@@ -143,7 +143,7 @@ const VoiceDocPage = () => {
             <div className="feature-icon">⚡</div>
             <h3>Real-Time Processing</h3>
             <p>
-              Docs generated in <3 seconds. No waiting. Review and edit on your phone before syncing to office.
+              Docs generated in &lt;3 seconds. No waiting. Review and edit on your phone before syncing to office.
             </p>
           </div>
 

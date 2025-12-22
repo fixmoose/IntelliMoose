@@ -1,0 +1,472 @@
+import { Link } from 'react-router-dom';
+import './ProductPage.css';
+
+const PlatformPage = () => {
+  return (
+    <div className="product-page">
+      <div className="animated-bg"></div>
+      <div className="grid-overlay"></div>
+
+      {/* Hero */}
+      <section className="product-hero">
+        <Link to="/" className="back-button">
+          ← Back to Overview
+        </Link>
+
+        <div className="product-hero-icon">🔗</div>
+        <h1 className="product-hero-title">The Platform Play</h1>
+        <p className="product-hero-tagline">
+          Why 4 Products Become Worth More Than the Sum of Their Parts
+        </p>
+
+        <div className="product-hero-stats">
+          <div className="hero-stat">
+            <span className="hero-stat-value">$1-3B</span>
+            <span className="hero-stat-label">Exit Target Valuation</span>
+          </div>
+          <div className="hero-stat">
+            <span className="hero-stat-value">4-6 years</span>
+            <span className="hero-stat-label">Exit Timeline</span>
+          </div>
+          <div className="hero-stat">
+            <span className="hero-stat-value">5+ Acquirers</span>
+            <span className="hero-stat-label">Strategic Buyers</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Platform Strategy */}
+      <section className="product-section">
+        <h2>Why Build a Platform Instead of Just One Product?</h2>
+
+        <div className="problem-description">
+          <p>
+            <strong>Single-product companies get acquired for 3-5x revenue.</strong> If VoiceDoc alone reaches $10M ARR,
+            that's a $30-50M exit. Good, but not generational wealth. Not a unicorn.
+          </p>
+          <p>
+            <strong>Platform companies get acquired for 10-15x revenue—or higher multiples on strategic value.</strong>
+            If IntelliMoose platform reaches $50M ARR across 4 products, that's a $500M-750M exit on revenue multiple alone.
+            But strategic acquirers (Apple, Microsoft, Salesforce) pay for <em>network effects, data moats, and ecosystem lock-in</em>—
+            which can push valuations to $1-3B.
+          </p>
+          <p>
+            <strong>Why this matters to investors:</strong> Platform strategy de-risks the investment. If one product fails,
+            others succeed. Multiple revenue streams, multiple acquisition paths, multiple defensibility layers. Higher exit
+            multiples because you're selling a <em>category-defining platform</em>, not a feature.
+          </p>
+        </div>
+
+        <div className="problem-stats-grid">
+          <div className="problem-stat-card">
+            <div className="problem-stat-number">10-15x</div>
+            <div className="problem-stat-label">Revenue multiple for platform acquisitions vs. 3-5x for single products</div>
+          </div>
+          <div className="problem-stat-card">
+            <div className="problem-stat-number">4 products</div>
+            <div className="problem-stat-label">Multiple shots on goal. If one fails, others succeed.</div>
+          </div>
+          <div className="problem-stat-card">
+            <div className="problem-stat-number">5+ acquirers</div>
+            <div className="problem-stat-label">Creates competitive bidding war at exit</div>
+          </div>
+        </div>
+      </section>
+
+      {/* Network Effects */}
+      <section className="product-section dark">
+        <h2>How the Products Create Network Effects</h2>
+
+        <div className="demo-flow">
+          <div className="demo-step">
+            <div className="step-content">
+              <h3>🎙️ VoiceDoc</h3>
+              <p>
+                Generates structured data: work orders, material lists, compliance notes. This data feeds the other products.
+                <br /><br />
+                <strong>Data created:</strong> Job details, material usage, time tracking, compliance keywords.
+              </p>
+            </div>
+          </div>
+
+          <div className="demo-arrow">→</div>
+
+          <div className="demo-step">
+            <div className="step-content">
+              <h3>📸 CodeSnap</h3>
+              <p>
+                Uses VoiceDoc data to understand job context. "Installing GFCI in bathroom" (from VoiceDoc) → CodeSnap knows to check for NEC 210.8(A)(1) compliance.
+                <br /><br />
+                <strong>Data created:</strong> Code violations, NEC citations, correction history.
+              </p>
+            </div>
+          </div>
+
+          <div className="demo-arrow">→</div>
+
+          <div className="demo-step">
+            <div className="step-content">
+              <h3>👁️ SafetyEye</h3>
+              <p>
+                Knows what work is happening (from VoiceDoc) and where (from CodeSnap). Adjusts hazard detection based on job type.
+                "Trenching" job → monitors for trench collapse, confined space violations.
+                <br /><br />
+                <strong>Data created:</strong> Safety incidents, near-misses, worker behavior patterns.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="problem-description" style={{ marginTop: '3rem' }}>
+          <p>
+            <strong>The Flywheel:</strong> More VoiceDoc users → more structured job data → better CodeSnap predictions
+            (AI learns common violations per job type) → better SafetyEye hazard detection (knows which hazards correlate with which jobs).
+          </p>
+          <p>
+            <strong>Result:</strong> Each product gets smarter as the platform grows. Competitors can copy individual features,
+            but they can't replicate the proprietary dataset created by the integrated platform. This is a <em>data moat</em>.
+          </p>
+        </div>
+      </section>
+
+      {/* Data Moat */}
+      <section className="product-section">
+        <h2>The Proprietary Dataset: Your Unfair Advantage</h2>
+
+        <div className="tech-stack">
+          <div className="tech-layer">
+            <h3>What Data We Collect Across the Platform</h3>
+            <ul>
+              <li><strong>VoiceDoc:</strong> 10,000 hours of trade-specific speech (product names, work descriptions, compliance terminology). Structured job data (time, materials, labor, outcomes).</li>
+              <li><strong>CodeSnap:</strong> 500,000 labeled images of electrical installations (correct vs. violations). Violation patterns by region, contractor, job type.</li>
+              <li><strong>SafetyEye:</strong> 1M hours of construction site video (anonymized). Near-miss incidents, hazard timings, safety compliance trends.</li>
+              <li><strong>Cross-Product:</strong> Correlation data. "Jobs with &gt;5 code violations have 3x higher safety incidents." "Contractors who use VoiceDoc have 40% fewer failed inspections."</li>
+            </ul>
+          </div>
+
+          <div className="tech-layer">
+            <h3>Why This Dataset Is Impossible to Replicate</h3>
+            <ul>
+              <li><strong>Unique to Skilled Trades:</strong> Google has general speech data. We have "12-gauge Romex, purple box, breaker 14" (electrician jargon). OpenAI has general images. We have "GFCI outlet in bathroom, NEC 2023 violation" (labeled code violations).</li>
+              <li><strong>Multi-Modal:</strong> Combines voice, vision, and safety data. Competitors would need to build 3 separate products to match. By the time they do, we're 2 years ahead.</li>
+              <li><strong>Behavioral Data:</strong> Not just "what happened" but "what works." Which contractors have lowest violation rates? What safety protocols reduce incidents? This predictive data is worth more than raw observations.</li>
+              <li><strong>Network Effects:</strong> More users → more data → better AI → attracts more users. First-mover advantage compounds over time.</li>
+            </ul>
+          </div>
+
+          <div className="tech-layer">
+            <h3>How We Monetize the Data (Without Selling It)</h3>
+            <ul>
+              <li><strong>Predictive Analytics:</strong> Sell insights to insurance companies. "Contractors using our platform have 30% lower claims. Offer them discounted premiums." Insurance pays us $10-20/worker/month for risk scoring API.</li>
+              <li><strong>Training Modules:</strong> "Most common violations in your region: GFCI (45%), wire gauge (30%), box fill (15%)." Sell to trade schools, apprenticeship programs. $50-100/seat/year.</li>
+              <li><strong>Benchmark Reports:</strong> "Your company's safety score: 78/100. Industry average: 65/100." Contractors pay $500-1K/year for compliance benchmarking.</li>
+              <li><strong>Supply Chain Optimization:</strong> "Contractors in your market use Romex 12-2 80% of the time. Stock more 12-2, less 14-2." Sell to electrical distributors (Graybar, Rexel). $5-10K/month per distributor.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Ecosystem Lock-In */}
+      <section className="product-section dark">
+        <h2>Ecosystem Lock-In: Why Customers Can't Leave</h2>
+
+        <div className="features-grid">
+          <div className="feature-card">
+            <div className="feature-icon">🔗</div>
+            <h3>Integrated Workflow</h3>
+            <p>
+              Electrician uses VoiceDoc to document job → CodeSnap to verify compliance → SafetyEye monitors while working.
+              All data syncs to single dashboard. Switching to competitors means losing this integration—back to manual, fragmented tools.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">📊</div>
+            <h3>Historical Data Lock-In</h3>
+            <p>
+              After 6 months, contractor has 500 jobs documented in platform. This history is valuable: reference past work,
+              track material costs over time, prove compliance in audits. Switching means losing this history. High switching cost.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">🎓</div>
+            <h3>Team Training Investment</h3>
+            <p>
+              Companies train 10-50 workers on the platform. Workers know the UI, the workflows, the shortcuts. Switching to
+              new tool requires re-training entire team (costly, disruptive). Inertia favors staying.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">🏆</div>
+            <h3>Compliance Certification</h3>
+            <p>
+              Contractors get "IntelliMoose Certified" badge after 6 months of platform use with &lt;5% violation rate.
+              Insurance companies offer premium discounts for certified contractors. Switching means losing certification and insurance savings.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">🔌</div>
+            <h3>Third-Party Integrations</h3>
+            <p>
+              Platform integrates with ServiceTitan, Jobber, QuickBooks, Procore. Data flows automatically. Switching means
+              breaking these integrations—manual data entry returns. Pain of switching &gt; pain of staying.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">💼</div>
+            <h3>Enterprise Contracts</h3>
+            <p>
+              Large contractors (100+ workers) negotiate multi-year contracts with volume discounts. Locked in for 3 years.
+              By Year 3, new features launched, more integrations built. Renewal rate &gt;90% for enterprise customers.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Exit Strategy */}
+      <section className="product-section">
+        <h2>Exit Strategy: Who Buys Us and Why</h2>
+
+        <div className="acquirers-grid">
+          <div className="acquirer-card">
+            <h4>🍎 Apple</h4>
+            <p>
+              <strong>Why they want us:</strong> Vision Pro enterprise play. Construction is $1.8T industry—perfect use case for spatial computing.
+              Our AI models + AR guidance = killer app for Vision Pro in field service.
+            </p>
+            <p>
+              <strong>What they pay for:</strong> Proprietary dataset (trade-specific speech, labeled construction images). Edge AI expertise
+              (offline processing for remote sites). Instant 100K+ enterprise customers in construction vertical.
+            </p>
+            <p className="comparable">Comparable: Matterport acquired for spatial computing tech, $3.5B valuation at peak.</p>
+          </div>
+
+          <div className="acquirer-card">
+            <h4>🪟 Microsoft</h4>
+            <p>
+              <strong>Why they want us:</strong> Azure AI for field service. Construction is underserved vertical for Microsoft 365.
+              Dynamics 365 Field Service needs AI layer—we provide it. HoloLens 2 enterprise customers need trade-specific apps.
+            </p>
+            <p>
+              <strong>What they pay for:</strong> Platform that integrates with Dynamics 365, Teams, Power BI. AI models that run on Azure
+              (we migrate from on-device to Azure edge). Enterprise customer relationships in construction/field service.
+            </p>
+            <p className="comparable">Comparable: Nuance acquired for $20B (enterprise AI, vertical-specific knowledge).</p>
+          </div>
+
+          <div className="acquirer-card">
+            <h4>☁️ Salesforce</h4>
+            <p>
+              <strong>Why they want us:</strong> Service Cloud AI layer. Field Service Lightning needs intelligence—we provide it.
+              Tableau integration (our benchmark reports = premium analytics product). Einstein AI needs domain-specific training data.
+            </p>
+            <p>
+              <strong>What they pay for:</strong> Platform that makes Service Cloud smarter. 100K+ field service users (upsell to Service Cloud).
+              Proprietary dataset for Einstein training. Category-defining vertical SaaS (construction/trades).
+            </p>
+            <p className="comparable">Comparable: Slack acquired for $28B (platform play, ecosystem, integrations).</p>
+          </div>
+
+          <div className="acquirer-card">
+            <h4>🛡️ Insurance (Travelers, Liberty Mutual, Zurich)</h4>
+            <p>
+              <strong>Why they want us:</strong> Workers' comp costs $40B/year. Our platform reduces claims by 30-40% (measured). Insurers want
+              to own the risk reduction tech. Bundle SafetyEye with insurance policies—premium discounts for users.
+            </p>
+            <p>
+              <strong>What they pay for:</strong> Proprietary risk scoring algorithms. 100K+ contractors already using platform (instant distribution
+              for insurance products). Data moat (safety trends, violation patterns). Vertical integration: sell insurance + compliance tech.
+            </p>
+            <p className="comparable">Comparable: Motive (fleet safety) raised at $3.5B valuation selling to insurance market.</p>
+          </div>
+
+          <div className="acquirer-card">
+            <h4>🔨 Tool OEMs (Hilti, DeWalt, Bosch, Milwaukee)</h4>
+            <p>
+              <strong>Why they want us:</strong> "Smart tools" trend. DeWalt makes drills—but the real money is in software/services (recurring revenue).
+              White-label our platform as "DeWalt Connect" or "Milwaukee ONE-KEY Pro." Sell tools + software subscriptions.
+            </p>
+            <p>
+              <strong>What they pay for:</strong> Platform they can brand as theirs. Instant software capabilities without 5 years of R&D.
+              Customer relationships (we have the contractors, they sell tools to them). Recurring revenue model (tools are one-time, software is subscription).
+            </p>
+            <p className="comparable">Comparable: ServiceMax (field service software) acquired by GE for $915M, later sold to Silver Lake.</p>
+          </div>
+
+          <div className="acquirer-card">
+            <h4>🏗️ Construction Tech (Procore, Autodesk, ServiceTitan)</h4>
+            <p>
+              <strong>Why they want us:</strong> Fill gaps in their platform. Procore has project management—not field-level AI. Autodesk has CAD—not
+              real-time compliance. ServiceTitan has scheduling—not safety monitoring. We plug into their platforms and make them smarter.
+            </p>
+            <p>
+              <strong>What they pay for:</strong> Technology tuck-in (buy vs. build). Eliminate competitive threat (we could become their competitor
+              if we expand). Customer overlap (their customers want our features—easier to buy us than lose customers).
+            </p>
+            <p className="comparable">Comparable: Procore acquired Levelset for $500M, BIM 360 for integration plays.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Valuation Build-Up */}
+      <section className="product-section dark">
+        <h2>How We Get to $1-3B Valuation</h2>
+
+        <div className="tech-stack">
+          <div className="tech-layer">
+            <h3>Path 1: Revenue Multiple ($500M-750M)</h3>
+            <ul>
+              <li><strong>Year 3 Target:</strong> 100K users across 4 products. Blended ARPU: $40/month. Annual revenue: $48M.</li>
+              <li><strong>Year 4 Target:</strong> 200K users. $30M from data monetization (insurance APIs, benchmark reports). Total revenue: $126M.</li>
+              <li><strong>Year 5 Target:</strong> 350K users. $50M from data. Total revenue: $218M.</li>
+              <li><strong>Exit Multiple:</strong> SaaS platforms trade at 8-12x revenue. At $200M revenue → $1.6B-2.4B valuation.</li>
+              <li><strong>Conservative Exit:</strong> $150M revenue × 10x = $1.5B acquisition.</li>
+            </ul>
+          </div>
+
+          <div className="tech-layer">
+            <h3>Path 2: Strategic Premium ($1B-3B)</h3>
+            <ul>
+              <li><strong>Apple buys for Vision Pro:</strong> Pays 15-20x revenue because we unlock $10B+ construction market for Vision Pro. $150M revenue × 15x = $2.25B.</li>
+              <li><strong>Microsoft buys for Azure:</strong> Pays for Azure workload migration. Every customer = Azure customer. Platform value &gt; revenue value. $1.5-2B acquisition.</li>
+              <li><strong>Insurance buys for vertical integration:</strong> Pays for claims reduction (worth $5-10B/year across industry). Proprietary risk data alone worth $1B+.</li>
+              <li><strong>Bidding war scenario:</strong> Multiple acquirers compete. Apple vs. Microsoft vs. Salesforce. Price escalates to $2-3B (see: Slack, Nuance).</li>
+            </ul>
+          </div>
+
+          <div className="tech-layer">
+            <h3>Path 3: IPO ($2B+ Market Cap)</h3>
+            <ul>
+              <li><strong>If we reach $500M ARR:</strong> Public SaaS companies trade at 6-10x revenue. Procore (construction tech) went public at $9B on $400M revenue. We'd target similar.</li>
+              <li><strong>Public comps:</strong> Procore ($9B market cap), ServiceTitan ($18B IPO valuation), Smartsheet ($8B). We'd be "AI-first construction platform"—premium multiple.</li>
+              <li><strong>Timeline:</strong> IPO in Year 6-7 if growth sustains. Alternative: stay private, raise growth equity at $3-5B valuation, sell to strategic later.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Now */}
+      <section className="product-section">
+        <h2>Why This Works Now (Timing)</h2>
+
+        <div className="features-grid">
+          <div className="feature-card">
+            <div className="feature-icon">🤖</div>
+            <h3>AI Has Crossed the Threshold</h3>
+            <p>
+              Whisper (speech recognition) is 95%+ accurate on general speech—we can fine-tune for trades. GPT-4 Vision can
+              interpret complex images (electrical panels, construction sites). YOLOv8 runs on $60 hardware. These technologies
+              didn't exist 3 years ago. This is the window.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">📱</div>
+            <h3>Smartphones Are Ubiquitous</h3>
+            <p>
+              85% of tradespeople have smartphones (2023 data). They use them for photos, texting, GPS—but not for AI-powered
+              work tools. Distribution is solved. No need to sell hardware (except SafetyEye cameras). App-based go-to-market.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">👴</div>
+            <h3>Skilled Labor Shortage Crisis</h3>
+            <p>
+              500K electrician shortage by 2028. Companies desperate for productivity tools. Willing to pay for AI that makes
+              junior workers as productive as veterans. Economic pain = willingness to buy new solutions.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">💰</div>
+            <h3>Insurance Costs Are Exploding</h3>
+            <p>
+              Workers' comp premiums up 20-30% in last 3 years. Contractors need to prove safety to avoid rate hikes. SafetyEye
+              provides documented evidence of proactive safety management. ROI is immediate (premium savings &gt; subscription cost).
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">🏛️</div>
+            <h3>Regulatory Tailwinds</h3>
+            <p>
+              OSHA pushing stricter enforcement. NEC code updates every 3 years (more complex). States requiring digital
+              documentation for permitting. Regulatory compliance burden = demand for our platform.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">🚀</div>
+            <h3>Big Tech Hasn't Entered Yet</h3>
+            <p>
+              Google, Microsoft, Amazon focused on white-collar AI (office workers, developers). Blue-collar AI is wide open.
+              First-mover advantage: build the category-defining platform before Big Tech wakes up. Then sell to them at premium.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Investment Thesis */}
+      <section className="product-section dark">
+        <h2>Investment Thesis Summary</h2>
+
+        <div className="problem-description">
+          <p>
+            <strong>Market:</strong> $500B+ TAM across skilled trades (documentation, compliance, safety). 3.5M workers in US alone.
+            Underserved market—current tools are generic (Google, Microsoft) or outdated (paper, manual processes).
+          </p>
+          <p>
+            <strong>Product:</strong> 4 AI-powered products that work together as unified platform. Each product solves real pain
+            (paperwork burden, failed inspections, safety incidents). Each product is buildable in 10-16 days. Patent-defensible.
+          </p>
+          <p>
+            <strong>Go-to-Market:</strong> Direct sales to contractors. Trade shows, Google Ads, referrals. Low CAC ($150-300).
+            High LTV ($1,800-2,500). LTV:CAC = 6-9x. Payback period &lt;6 months. Path to $50M ARR in 3 years.
+          </p>
+          <p>
+            <strong>Defensibility:</strong> Proprietary dataset (10K hours of trade speech, 500K labeled images, 1M hours of safety video).
+            Network effects (products get smarter together). Ecosystem lock-in (integrated workflow, historical data, certifications).
+            3-4 patents pending.
+          </p>
+          <p>
+            <strong>Exit:</strong> Multiple acquirers (Apple, Microsoft, Salesforce, insurance, tool OEMs, construction tech). Revenue multiple
+            exit at $1.5B (10x on $150M revenue). Strategic premium exit at $2-3B (AI capabilities, proprietary data, customer relationships).
+            Timeline: 4-6 years.
+          </p>
+          <p>
+            <strong>Team:</strong> Founder with domain expertise. Plan to hire 2 engineers (AI/ML, full-stack), 1 sales lead. Advisory board
+            with construction industry veterans, AI researchers, M&A advisors. Execution-focused, capital-efficient.
+          </p>
+          <p>
+            <strong>Ask:</strong> $1.5M seed round. 18-month runway. Milestones: 4 products launched, 100 paying customers, $250K ARR, 3-4 patents filed.
+            Series A ready at $40-60M valuation. Investor ROI: 30-50x if $1.5B exit, 100-200x if $3B exit.
+          </p>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="product-cta">
+        <h2>Ready to Build a Unicorn?</h2>
+        <p>
+          This isn't a feature. It's a category-defining platform. First-mover advantage in $500B market.
+          Exit to Big Tech in 4-6 years. Let's build it.
+        </p>
+        <div className="cta-buttons">
+          <Link to="/" className="glow-button secondary">
+            ← Back to Overview
+          </Link>
+          <a href="mailto:invest@intellimoose.com" className="glow-button primary">
+            Invest in IntelliMoose
+          </a>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default PlatformPage;
