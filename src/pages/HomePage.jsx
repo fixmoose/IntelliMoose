@@ -113,16 +113,19 @@ const HomePage = () => {
             <h3>FixMoose Core Platform</h3>
             <p>Job management • Invoicing • Customer CRM • Compliance tracking • Material lists • Photo documentation</p>
             <div className="platform-tiers">
-              <span className="tier-badge free">Basic: FREE (5 jobs, 100MB)</span>
+              <span className="tier-badge free">Basic: 6 months FREE → $19/mo (or FREE forever with any widget)</span>
               <span className="tier-badge">Pro: $49/mo</span>
               <span className="tier-badge">Teams: $99/mo</span>
               <span className="tier-badge">Enterprise: $299/mo</span>
             </div>
+            <p style={{ marginTop: '1.5rem', fontSize: '1.05rem', color: 'var(--text-secondary)' }}>
+              <strong>Try it now:</strong> <a href="https://fixmoose.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'none', fontWeight: '700' }}>FixMoose.com</a> (demo account available)
+            </p>
           </div>
 
           <div className="ai-widgets-header">
             <h3>+ AI Input Widgets (Optional Add-Ons)</h3>
-            <p>Each widget comes with FREE FixMoose Basic account</p>
+            <p>Each AI widget subscription includes FREE FixMoose Basic account (forever)</p>
           </div>
 
           <div className="widgets-grid">
@@ -158,7 +161,7 @@ const HomePage = () => {
             <div className="strategy-step">
               <div className="step-number">1</div>
               <h4>Hook with Free Tier</h4>
-              <p>Electrician buys VoiceDoc ($30/month) to save time on paperwork. Gets FREE FixMoose Basic (5 jobs, 100MB).</p>
+              <p>Contractor signs up for FREE FixMoose Basic (6 months free, then $19/mo). OR buys VoiceDoc ($30/mo) and gets FixMoose Basic FREE forever.</p>
             </div>
             <div className="strategy-arrow">→</div>
             <div className="strategy-step">
@@ -170,7 +173,7 @@ const HomePage = () => {
             <div className="strategy-step">
               <div className="step-number">3</div>
               <h4>Upsell to Pro ($49/month)</h4>
-              <p>Unlocks unlimited jobs, 10GB storage, homeowner portal. Total spend: $79/month. Homeowners see invoices, approve work.</p>
+              <p>Unlocks unlimited jobs, 10GB storage, homeowner portal. Total spend: $79/mo (VoiceDoc $30 + FixMoose Pro $49). Homeowners see invoices, approve work.</p>
             </div>
             <div className="strategy-arrow">→</div>
             <div className="strategy-step">
@@ -189,18 +192,20 @@ const HomePage = () => {
           <div className="ltv-callout">
             <h3>Lifetime Value Expansion</h3>
             <p>
-              <strong>Month 1:</strong> $30/month (VoiceDoc only)
+              <strong>Month 1:</strong> $0/month (FixMoose Basic - 6 months free trial)
               <br />
-              <strong>Month 3:</strong> $79/month (+ FixMoose Pro upgrade)
+              <strong>Month 3:</strong> $30/month (Buys VoiceDoc, gets FixMoose Basic FREE forever)
               <br />
-              <strong>Month 6:</strong> $129/month (+ CodeSnap widget)
+              <strong>Month 5:</strong> $79/month (Upgrades to FixMoose Pro $49 for unlimited jobs + homeowner portal)
               <br />
-              <strong>Month 9:</strong> $179/month (+ SafetyEye widget)
+              <strong>Month 8:</strong> $129/month (Adds CodeSnap widget $50)
               <br />
-              <strong>Month 12:</strong> $269/month (+ Teams plan for 3 users)
+              <strong>Month 11:</strong> $179/month (Adds SafetyEye widget $50)
+              <br />
+              <strong>Month 14:</strong> $269/month (Upgrades to Teams plan $99 + $60 for 3 users)
             </p>
             <p className="ltv-highlight">
-              <strong>9x revenue expansion in 12 months.</strong> Average customer LTV: $3,200 in year 1, $10,000+ over 3 years.
+              <strong>∞ → $269/mo in 14 months.</strong> Average customer LTV: $3,400 in year 1, $11,000+ over 3 years.
             </p>
           </div>
         </div>
@@ -413,43 +418,70 @@ const HomePage = () => {
             </div>
           </div>
 
+          <div className="economics-grid" style={{ marginTop: '3rem' }}>
+            <div className="econ-card" style={{ gridColumn: '1 / -1', background: 'linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(6, 182, 212, 0.15))', border: '2px solid var(--primary)' }}>
+              <h4>AI Cost Economics: 1000%+ Margin on Claude API</h4>
+              <p>
+                <strong>The Challenge:</strong> AI widgets use Claude API for intelligence. Can't give away AI for free—costs add up fast.
+                <br /><br />
+                <strong>Our Solution:</strong> $30/month VoiceDoc subscription covers ~20 customers' Claude API costs. We charge $30, Claude costs us ~$2/month per user = <strong>1,400% margin.</strong>
+                <br /><br />
+                <strong>How we achieve this:</strong>
+                <br />• 95% of processing happens on-device (Whisper, YOLOv8) = FREE (no API calls)
+                <br />• Only 5% of requests hit Claude API (complex queries, edge cases)
+                <br />• Average user: 50 API calls/month × $0.04/call = $2/month in Claude costs
+                <br />• We charge $30/month → $28 gross margin per user (93% gross margin!)
+                <br /><br />
+                <strong>Scale Economics:</strong> At 10,000 VoiceDoc users → $300K/month revenue, $20K/month Claude API costs. $280K gross profit (93% margin). This is SaaS-level economics with AI intelligence.
+                <br /><br />
+                <strong>Widget subscribers get FixMoose Basic FREE forever</strong> because the widget margins cover platform costs. Non-widget users pay $19/month after 6-month trial (platform-only, no AI).
+              </p>
+            </div>
+          </div>
+
           <div className="ltv-breakdown">
-            <h3>LTV Expansion: $30 → $269 in 12 Months</h3>
+            <h3>LTV Expansion: $0 → $269 in 14 Months</h3>
             <div className="ltv-timeline">
               <div className="ltv-month">
                 <div className="month-label">Month 1</div>
-                <div className="month-revenue">$30</div>
-                <div className="month-detail">VoiceDoc only + FREE FixMoose Basic</div>
+                <div className="month-revenue">$0</div>
+                <div className="month-detail">FixMoose Basic only (6 months free trial)</div>
               </div>
               <div className="ltv-arrow">→</div>
               <div className="ltv-month">
                 <div className="month-label">Month 3</div>
+                <div className="month-revenue">$30</div>
+                <div className="month-detail">Buys VoiceDoc ($30), gets FixMoose Basic FREE forever</div>
+              </div>
+              <div className="ltv-arrow">→</div>
+              <div className="ltv-month">
+                <div className="month-label">Month 5</div>
                 <div className="month-revenue">$79</div>
                 <div className="month-detail">Hits 5-job limit, upgrades to FixMoose Pro ($49)</div>
               </div>
               <div className="ltv-arrow">→</div>
               <div className="ltv-month">
-                <div className="month-label">Month 6</div>
+                <div className="month-label">Month 8</div>
                 <div className="month-revenue">$129</div>
                 <div className="month-detail">Adds CodeSnap widget ($50) to prevent failed inspections</div>
               </div>
               <div className="ltv-arrow">→</div>
               <div className="ltv-month">
-                <div className="month-label">Month 9</div>
+                <div className="month-label">Month 11</div>
                 <div className="month-revenue">$179</div>
                 <div className="month-detail">Adds SafetyEye widget ($50) for insurance discounts</div>
               </div>
               <div className="ltv-arrow">→</div>
               <div className="ltv-month">
-                <div className="month-label">Month 12</div>
+                <div className="month-label">Month 14</div>
                 <div className="month-revenue">$269</div>
                 <div className="month-detail">Grows team, upgrades to Teams plan ($99 + $60 for 3 users)</div>
               </div>
             </div>
             <div className="ltv-summary">
-              <p><strong>9x revenue expansion in 12 months.</strong></p>
-              <p>Year 1 LTV: $3,200 | Year 3 LTV: $10,000+ | Churn: &lt;5% annually (data lock-in)</p>
-              <p><strong>LTV/CAC Ratio: 64:1</strong> (by year 3) — Best-in-class SaaS economics</p>
+              <p><strong>∞ → $269/mo expansion in 14 months.</strong></p>
+              <p>Year 1 LTV: $3,400 | Year 3 LTV: $11,000+ | Churn: &lt;5% annually (data lock-in)</p>
+              <p><strong>LTV/CAC Ratio: 68:1</strong> (by year 3) — Best-in-class SaaS economics</p>
             </div>
           </div>
         </div>
