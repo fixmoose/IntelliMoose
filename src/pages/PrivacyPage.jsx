@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import LegalFooter from '../components/LegalFooter';
 import './ProductPage.css';
 
 const PrivacyPage = () => {
@@ -359,6 +360,9 @@ const PrivacyPage = () => {
           </Link>
         </div>
       </section>
+
+      {/* Legal Footer */}
+      <LegalFooter />
     </div>
   );
 };

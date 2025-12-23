@@ -371,6 +371,148 @@ const SnapMoosePage = () => {
         </div>
       </section>
 
+      {/* Plumbing Code Compliance */}
+      <section className="product-section">
+        <h2>Beyond Electrical: Plumbing Code Compliance</h2>
+
+        <div className="problem-description">
+          <p style={{ fontSize: '1.3rem', textAlign: 'center', marginBottom: '3rem' }}>
+            <strong>SnapMoose isn't just for electricians—it also detects plumbing code violations.</strong>
+            <br />ABS pipe restrictions, drainage slope, vent sizing, trap requirements, and more.
+          </p>
+        </div>
+
+        <div className="features-grid">
+          <div className="feature-card">
+            <div className="feature-icon">🚫</div>
+            <h3>ABS Pipe Restrictions</h3>
+            <p>
+              <strong>Detection:</strong> Identifies ABS (black plastic) vs PVC (white) pipe in drain systems.
+              <br /><br />
+              <strong>Violation:</strong> ABS pipe used in jurisdiction where only PVC is allowed (varies by state/municipality).
+              <br /><br />
+              <strong>Fix:</strong> "Replace ABS with Schedule 40 PVC. Check local amendments—some areas ban ABS entirely due to fire concerns."
+              <br /><br />
+              <strong>Why it matters:</strong> Inspectors fail installations using banned materials. Re-piping costs $2,000-$5,000.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">📐</div>
+            <h3>90-Degree Bend Violations</h3>
+            <p>
+              <strong>Detection:</strong> Identifies 90-degree elbows in horizontal drainage runs.
+              <br /><br />
+              <strong>Violation:</strong> Sharp 90° elbow in horizontal drain (UPC 706.3 requires two 45° or long-sweep 90°).
+              <br /><br />
+              <strong>Fix:</strong> "Replace with two 45-degree elbows OR use long-sweep 90-degree elbow. Prevents clogs."
+              <br /><br />
+              <strong>Why it matters:</strong> Sharp bends restrict flow, cause clogs. Long-sweep elbows required for horizontal drainage.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">🔀</div>
+            <h3>WYE vs TEE Requirements</h3>
+            <p>
+              <strong>Detection:</strong> Distinguishes between WYE (Y-shaped) and TEE (T-shaped) fittings in drainage systems.
+              <br /><br />
+              <strong>Violation:</strong> Sanitary TEE used horizontally in drain line (UPC 706.2 requires WYE or Combo WYE).
+              <br /><br />
+              <strong>Fix:</strong> "Replace horizontal TEE with WYE fitting. TEEs only allowed in vertical stacks."
+              <br /><br />
+              <strong>Why it matters:</strong> Horizontal TEEs cause turbulence and backups. WYE fittings ensure smooth drainage flow.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">💧</div>
+            <h3>Trap Seal Depth</h3>
+            <p>
+              <strong>Detection:</strong> Measures P-trap water seal depth using phone camera depth sensors.
+              <br /><br />
+              <strong>Violation:</strong> Trap seal only 1.5 inches deep (UPC 1002.1 requires 2-4 inches).
+              <br /><br />
+              <strong>Fix:</strong> "Replace trap. Water seal must be 2-4 inches to prevent sewer gas entry."
+              <br /><br />
+              <strong>Why it matters:</strong> Shallow traps allow sewer gas into building. Deep traps lose prime (water evaporates, breaks seal).
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">🌬️</div>
+            <h3>Vent Stack Sizing</h3>
+            <p>
+              <strong>Detection:</strong> Reads pipe diameter labels, counts fixtures served by vent.
+              <br /><br />
+              <strong>Violation:</strong> 1.5" vent serving 3 toilets (UPC Table 702.1 requires 2" minimum for 3+ water closets).
+              <br /><br />
+              <strong>Fix:</strong> "Upgrade vent to 2-inch pipe. Undersized vents cause slow drainage and gurgling."
+              <br /><br />
+              <strong>Why it matters:</strong> Inadequate venting creates vacuum, slows drainage, causes trap siphonage (breaks seal).
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">📏</div>
+            <h3>Slope/Grade Verification</h3>
+            <p>
+              <strong>Detection:</strong> Uses phone accelerometer to measure pipe slope angle.
+              <br /><br />
+              <strong>Violation:</strong> Drain pipe at 1/16" per foot slope (UPC 704.1 requires minimum 1/8" per foot, max 1/4").
+              <br /><br />
+              <strong>Fix:</strong> "Adjust pitch to 1/8" per foot (1% slope). Too flat = clogs. Too steep = water outruns solids."
+              <br /><br />
+              <strong>Why it matters:</strong> Improper slope is #1 cause of chronic drainage problems. Inspector checks with level.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">⚡</div>
+            <h3>Material Compatibility</h3>
+            <p>
+              <strong>Detection:</strong> Identifies metal types at pipe joints (copper, galvanized steel, brass).
+              <br /><br />
+              <strong>Violation:</strong> Copper pipe directly connected to galvanized steel (causes galvanic corrosion).
+              <br /><br />
+              <strong>Fix:</strong> "Install dielectric union between dissimilar metals. Prevents electrochemical corrosion."
+              <br /><br />
+              <strong>Why it matters:</strong> Dissimilar metals create electrical current, corrode pipes from inside. Leaks in 5-10 years.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">🔧</div>
+            <h3>Cleanout Access Requirements</h3>
+            <p>
+              <strong>Detection:</strong> Traces drain runs, identifies cleanout locations and spacing.
+              <br /><br />
+              <strong>Violation:</strong> 80 feet of drain pipe with no cleanout (UPC 707.4 requires cleanout every 100 feet + at direction changes).
+              <br /><br />
+              <strong>Fix:</strong> "Install cleanout at base of stack and at direction changes. Required for clearing clogs."
+              <br /><br />
+              <strong>Why it matters:</strong> Without cleanouts, clogs require demolition to access pipes. $5,000+ repair vs $50 cleanout.
+            </p>
+          </div>
+        </div>
+
+        <div className="problem-description" style={{ marginTop: '3rem', background: 'rgba(139, 92, 246, 0.1)', border: '2px solid rgba(139, 92, 246, 0.3)', borderRadius: '16px', padding: '2rem' }}>
+          <h3 style={{ textAlign: 'center', marginBottom: '1.5rem', color: 'var(--accent)' }}>🎯 3X Market Expansion: All Skilled Trades</h3>
+          <p style={{ fontSize: '1.2rem', lineHeight: '1.8' }}>
+            <strong>Electricians:</strong> 750,000 in US (original target)
+            <br />
+            <strong>Plumbers:</strong> 500,000 in US (NOW addressable with plumbing features)
+            <br />
+            <strong>HVAC Technicians:</strong> 400,000 in US (FUTURE: duct sizing, refrigerant line compliance)
+            <br /><br />
+            <strong>Total Addressable Market: 1.65M skilled tradespeople → 3X revenue potential</strong>
+            <br /><br />
+            By expanding SnapMoose from electrical-only to <strong>all trades</strong>, we demonstrate the AI model is <strong>scalable and retrainable</strong>.
+            Same YOLOv8 architecture, just retrain on plumbing/HVAC datasets. This proves SnapMoose is a <strong>platform, not a niche tool</strong>.
+          </p>
+        </div>
+      </section>
+
       {/* Features */}
       <section className="product-section">
         <h2>Key Features</h2>

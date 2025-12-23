@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import EcosystemDiagram from '../components/EcosystemDiagram';
 import './HomePage.css';
 
 const HomePage = () => {
@@ -232,6 +233,9 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
+      {/* Ecosystem Diagram */}
+      <EcosystemDiagram />
 
       {/* Deep Dives into Each Widget */}
       <section className="products-overview" id="products">

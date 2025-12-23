@@ -242,8 +242,217 @@ const PlatformPage = () => {
         </div>
       </section>
 
-      {/* AI Cost Economics */}
+      {/* Comprehensive FixMoose Features */}
       <section className="product-section dark">
+        <h2>FixMoose Platform: Complete Business Management for Contractors</h2>
+
+        <div className="problem-description">
+          <p style={{ fontSize: '1.3rem', textAlign: 'center', marginBottom: '3rem' }}>
+            FixMoose isn't just a CRM—it's <strong>QuickBooks + Salesforce + Project Management + Document Storage</strong> built specifically for skilled trades.
+            <br />Everything contractors need to run their business, all feeding into one unified platform.
+          </p>
+        </div>
+
+        <div className="features-grid">
+          <div className="feature-card">
+            <div className="feature-icon">📄</div>
+            <h3>Auto-Invoicing with Line Items</h3>
+            <p>
+              <strong>What it does:</strong> Automatically generates professional invoices from VoiceMoose voice recordings or manual job entry.
+              <br /><br />
+              <strong>Features:</strong>
+              <br />• Line-item breakdown (materials, labor, tax calculated automatically)
+              <br />• Customizable invoice templates (add logo, payment terms, notes)
+              <br />• Recurring invoices for maintenance contracts (auto-send monthly)
+              <br />• Late payment reminders (auto-email at 7, 14, 30 days overdue)
+              <br />• Payment tracking (mark as paid, partial payment support)
+              <br />• Tax-compliant invoicing (sales tax rates by ZIP code, auto-calculated)
+              <br /><br />
+              <strong>Integration:</strong> Syncs with QuickBooks, Stripe (credit card payments), ACH (bank transfers).
+              <br /><br />
+              <strong>Why it matters:</strong> Contractors save 2-3 hours/week on invoicing. Faster payment (customers pay via link in email). Professional appearance builds trust.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">💰</div>
+            <h3>Quote Generation & Tracking</h3>
+            <p>
+              <strong>What it does:</strong> Create professional quotes/estimates, track quote status, convert to invoices with one click.
+              <br /><br />
+              <strong>Features:</strong>
+              <br />• Quote templates (electrical service upgrade, panel replacement, rewire)
+              <br />• Material cost lookup (live pricing from suppliers like Home Depot, Grainger)
+              <br />• Profit margin calculator (mark up materials 20%, labor at $85/hour)
+              <br />• Quote versioning (track revisions, compare versions)
+              <br />• Expiration dates (quote expires in 30 days, auto-remind customer)
+              <br />• Quote acceptance tracking (customer approves via email link, e-signature)
+              <br />• Convert to invoice (one-click conversion when quote accepted)
+              <br /><br />
+              <strong>Integration:</strong> Email quotes as PDF, SMS links to customers, track open/view rates.
+              <br /><br />
+              <strong>Why it matters:</strong> Win rate increases 15-20% with professional quotes. Quote-to-close time reduces from 7 days to 3 days with tracking.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">📝</div>
+            <h3>Contract Management & Digital Signatures</h3>
+            <p>
+              <strong>What it does:</strong> Generate service contracts, get customer signatures electronically, store signed contracts securely.
+              <br /><br />
+              <strong>Features:</strong>
+              <br />• Contract templates (residential service agreement, commercial maintenance contract)
+              <br />• Customizable terms (payment schedule, scope of work, warranty terms)
+              <br />• Digital signature collection (DocuSign-style e-signature, legally binding)
+              <br />• Contract status tracking (sent, viewed, signed, expired)
+              <br />• Auto-reminders (nudge customer to sign if pending 3+ days)
+              <br />• Version control (track contract amendments, addendums)
+              <br />• Secure storage (encrypted, tamper-proof, audit trail)
+              <br /><br />
+              <strong>Integration:</strong> Syncs with job records, links to invoices, accessible from customer portal.
+              <br /><br />
+              <strong>Why it matters:</strong> Eliminates paper contracts (lost contracts = unpaid work). E-signature speeds up approval 5x. Legal protection for disputes.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">🔄</div>
+            <h3>Change Orders & Approval Workflow</h3>
+            <p>
+              <strong>What it does:</strong> Track scope changes, get customer approval for extra work, prevent scope creep disputes.
+              <br /><br />
+              <strong>Features:</strong>
+              <br />• Change order creation (describe change, add materials/labor, calculate new cost)
+              <br />• Before/after comparison (original quote vs new quote with change)
+              <br />• Customer approval required (can't proceed until customer signs change order)
+              <br />• Approval notifications (email + SMS to customer, push notification)
+              <br />• Revision history (audit trail showing all changes, timestamps, approvals)
+              <br />• Impact analysis (shows how change affects timeline, budget, materials)
+              <br /><br />
+              <strong>Integration:</strong> Auto-updates invoice when change order approved, adds line items automatically.
+              <br /><br />
+              <strong>Why it matters:</strong> Prevents "scope creep" disputes (customer says "I never agreed to that"). Average contractor loses $5K/year to unpaid extra work. Change order workflow eliminates this.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">📦</div>
+            <h3>Purchase Orders & Supplier Management</h3>
+            <p>
+              <strong>What it does:</strong> Track material purchases, manage supplier relationships, reconcile orders with receipts.
+              <br /><br />
+              <strong>Features:</strong>
+              <br />• PO generation (create purchase order for materials, send to supplier)
+              <br />• Supplier database (track vendors, contact info, pricing history, delivery times)
+              <br />• Favorite suppliers (mark preferred vendors for quick reordering)
+              <br />• Order tracking (mark as ordered, in-transit, received, installed)
+              <br />• Receipt matching (OCR scans receipt, matches to PO, flags discrepancies)
+              <br />• Cost reconciliation (compare PO estimate to actual receipt, track overruns)
+              <br />• Job allocation (assign PO to specific job, track material costs per job)
+              <br /><br />
+              <strong>Integration:</strong> Syncs with expense tracking, auto-updates job costs when materials received.
+              <br /><br />
+              <strong>Why it matters:</strong> Prevents material cost overruns (know BEFORE invoice that job went over budget). Supplier management saves 10-15% on materials (track who has best prices/delivery).
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">🧾</div>
+            <h3>Receipt & Expense Tracking with OCR</h3>
+            <p>
+              <strong>What it does:</strong> Snap photos of receipts, AI extracts data, categorizes expenses, tracks mileage.
+              <br /><br />
+              <strong>Features:</strong>
+              <br />• OCR receipt scanning (photo → extracts vendor, date, amount, line items)
+              <br />• Auto-categorization (materials, fuel, tools, permits, fees)
+              <br />• Job allocation (assign expense to specific job, track per-job profitability)
+              <br />• Mileage tracking (GPS log, IRS-compliant mileage reports, $0.67/mile deduction)
+              <br />• Reimbursement workflow (employees submit expenses, contractor approves/pays)
+              <br />• Tax category tagging (deductible vs non-deductible, Section 179 equipment)
+              <br />• Receipt storage (encrypted PDFs, searchable, never lose a receipt)
+              <br /><br />
+              <strong>Integration:</strong> Exports to QuickBooks, syncs with bank accounts, generates expense reports.
+              <br /><br />
+              <strong>Why it matters:</strong> Average contractor loses $3-5K/year in unclaimed deductions (lost receipts). Mileage tracking alone saves $2K/year. OCR eliminates manual data entry (2 hours/week saved).
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">📊</div>
+            <h3>Comprehensive Reporting & Analytics</h3>
+            <p>
+              <strong>What it does:</strong> Generate financial reports, track KPIs, provide insights for business decisions.
+              <br /><br />
+              <strong>P&L (Profit & Loss) Reports:</strong>
+              <br />• Revenue by job type (residential vs commercial, service call vs project work)
+              <br />• Cost breakdown (materials, labor, overhead, taxes)
+              <br />• Net profit margin (overall + per job type)
+              <br />• Month-over-month trends (revenue growth, expense creep)
+              <br /><br />
+              <strong>Tax Reporting:</strong>
+              <br />• Yearly books (all transactions, categorized, ready for accountant)
+              <br />• Quarterly estimated tax calculator (based on YTD income, projects tax owed)
+              <br />• 1099 contractor reports (if you hire subcontractors, auto-generate 1099s)
+              <br />• Sales tax collected (by jurisdiction, ready for remittance)
+              <br />• Mileage and expense summaries (IRS Schedule C format)
+              <br /><br />
+              <strong>Cash Flow Forecasting:</strong>
+              <br />• Outstanding invoices (aged receivables, predict when paid)
+              <br />• Upcoming expenses (scheduled POs, recurring costs)
+              <br />• Cash runway (how many months of operating cash available)
+              <br />• Seasonal trends (identify slow months, plan for cashflow gaps)
+              <br /><br />
+              <strong>KPI Dashboards:</strong>
+              <br />• Average job value
+              <br />• Customer acquisition cost
+              <br />• Repeat customer rate
+              <br />• Invoice-to-payment time (days to get paid)
+              <br />• Employee utilization (billable hours vs total hours)
+              <br />• Profit per job (which job types are most profitable)
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">🗓️</div>
+            <h3>Scheduling & Dispatch</h3>
+            <p>
+              <strong>What it does:</strong> Calendar view of jobs, assign workers to jobs, optimize routes, send reminders.
+              <br /><br />
+              <strong>Features:</strong>
+              <br />• Drag-and-drop calendar (assign jobs to workers, reschedule easily)
+              <br />• Team availability (mark workers as out sick, on vacation, available)
+              <br />• Job duration estimates (based on historical data, predict job length)
+              <br />• Route optimization (plan multiple service calls, minimize drive time)
+              <br />• Customer reminders (auto-send "We're coming tomorrow" SMS/email)
+              <br />• Technician notifications (push notification with job address, customer notes)
+              <br /><br />
+              <strong>Why it matters:</strong> Reduces drive time 15-20% (route optimization). Prevents no-shows (reminders reduce no-show rate 60%). Team coordination for multi-worker jobs.
+            </p>
+          </div>
+        </div>
+
+        <div className="problem-description" style={{ marginTop: '3rem', background: 'rgba(6, 182, 212, 0.1)', border: '2px solid rgba(6, 182, 212, 0.3)', borderRadius: '16px', padding: '2rem' }}>
+          <h3 style={{ textAlign: 'center', marginBottom: '1.5rem', color: 'var(--primary)' }}>💡 Why This Justifies $49-99/Month Pricing</h3>
+          <p style={{ fontSize: '1.2rem', lineHeight: '1.8' }}>
+            <strong>Competitors charge $500/month (ServiceTitan) or $300/month (Jobber) for similar features.</strong>
+            <br /><br />
+            FixMoose Pro at $49/month is a <strong>10x better value</strong> because:
+            <br />• It's designed for small contractors (1-5 employees), not enterprise
+            <br />• AI widgets do the data entry (VoiceMoose auto-fills invoices from voice)
+            <br />• FREE tier gets contractors hooked, they upgrade when they hit limits
+            <br />• Trojan Horse strategy means they're already invested when pricing hits
+            <br /><br />
+            <strong>Platform LTV expansion: $19/month (Basic after trial) → $49/month (Pro) → $99/month (Teams) → $299/month (Enterprise)</strong>
+            <br /><br />
+            By the time contractor has 50 jobs in FixMoose, all their customer relationships, all their pricing history, all their tax records—
+            <strong>switching cost is higher than $49/month</strong>. They're locked in.
+          </p>
+        </div>
+      </section>
+
+      {/* AI Cost Economics */}
+      <section className="product-section">
         <h2>AI Cost Economics: How We Achieve 1000%+ Margins on Claude API</h2>
 
         <div className="tech-stack">
