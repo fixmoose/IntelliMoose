@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import LegalFooter from '../components/LegalFooter';
 import './ProductPage.css';
 
 const VoiceMoosePage = () => {
@@ -760,6 +761,9 @@ const VoiceMoosePage = () => {
           </a>
         </div>
       </section>
+
+      {/* Legal Footer */}
+      <LegalFooter />
     </div>
   );
 };

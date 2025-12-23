@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import EcosystemDiagram from '../components/EcosystemDiagram';
+import LegalFooter from '../components/LegalFooter';
 import './HomePage.css';
 
 const HomePage = () => {
@@ -552,6 +553,9 @@ const HomePage = () => {
           <p>Email: <a href="mailto:invest@intellimoose.com">invest@intellimoose.com</a></p>
         </div>
       </section>
+
+      {/* Legal Footer */}
+      <LegalFooter />
     </div>
   );
 };
