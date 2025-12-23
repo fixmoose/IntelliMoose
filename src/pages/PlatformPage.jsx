@@ -54,7 +54,7 @@ const PlatformPage = () => {
               <strong>Path A (Platform-Only Users):</strong> Contractor signs up for FixMoose Basic. Gets 6 months FREE, then $19/month.
             </p>
             <p>
-              <strong>Path B (Widget Subscribers):</strong> Contractor buys VoiceDoc ($30/month) to save time on paperwork. Gets FREE FixMoose Basic account automatically (forever):
+              <strong>Path B (Widget Subscribers):</strong> Contractor buys VoiceDoc ($30/month) to save time on paperwork. Gets FREE FixMoose Basic account automatically with subscription:
             </p>
             <ul>
               <li>5 active jobs (6th job triggers upgrade prompt)</li>
@@ -167,7 +167,7 @@ const PlatformPage = () => {
             <p>
               <strong>6 months FREE → $19/month</strong>
               <br />
-              <strong style={{ color: '#22c55e' }}>OR FREE forever with any AI widget subscription</strong>
+              <strong style={{ color: '#22c55e' }}>OR FREE with any AI widget subscription</strong>
             </p>
             <ul style={{ textAlign: 'left', marginTop: '1rem' }}>
               <li>5 active jobs</li>
@@ -177,7 +177,7 @@ const PlatformPage = () => {
               <li>Mobile app access</li>
             </ul>
             <p style={{ marginTop: '1rem' }}>
-              <strong>Goal:</strong> Get contractor hooked with 6-month trial. After trial ends, they either pay $19/mo (platform-only users) OR buy a widget ($30-50/mo) and get Basic FREE forever.
+              <strong>Goal:</strong> Get contractor hooked with 6-month trial. After trial ends, they either pay $19/mo (platform-only users) OR buy a widget ($30-50/mo) and get Basic FREE with subscription.
             </p>
             <p style={{ marginTop: '1rem', textAlign: 'center' }}>
               <strong>Try it now:</strong> <a href="https://fixmoose.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', fontWeight: '700' }}>FixMoose.com</a>

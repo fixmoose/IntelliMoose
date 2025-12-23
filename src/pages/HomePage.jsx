@@ -113,7 +113,7 @@ const HomePage = () => {
             <h3>FixMoose Core Platform</h3>
             <p>Job management • Invoicing • Customer CRM • Compliance tracking • Material lists • Photo documentation</p>
             <div className="platform-tiers">
-              <span className="tier-badge free">Basic: 6 months FREE → $19/mo (or FREE forever with any widget)</span>
+              <span className="tier-badge free">Basic: 6 months FREE → $19/mo (or FREE with any widget)</span>
               <span className="tier-badge">Pro: $49/mo</span>
               <span className="tier-badge">Teams: $99/mo</span>
               <span className="tier-badge">Enterprise: $299/mo</span>
@@ -125,7 +125,7 @@ const HomePage = () => {
 
           <div className="ai-widgets-header">
             <h3>+ AI Input Widgets (Optional Add-Ons)</h3>
-            <p>Each AI widget subscription includes FREE FixMoose Basic account (forever)</p>
+            <p>Each AI widget subscription includes FREE FixMoose Basic account</p>
           </div>
 
           <div className="widgets-grid">
@@ -161,7 +161,7 @@ const HomePage = () => {
             <div className="strategy-step">
               <div className="step-number">1</div>
               <h4>Hook with Free Tier</h4>
-              <p>Contractor signs up for FREE FixMoose Basic (6 months free, then $19/mo). OR buys VoiceDoc ($30/mo) and gets FixMoose Basic FREE forever.</p>
+              <p>Contractor signs up for FREE FixMoose Basic (6 months free, then $19/mo). OR buys VoiceDoc ($30/mo) and gets FixMoose Basic FREE with subscription.</p>
             </div>
             <div className="strategy-arrow">→</div>
             <div className="strategy-step">
@@ -194,7 +194,7 @@ const HomePage = () => {
             <p>
               <strong>Month 1:</strong> $0/month (FixMoose Basic - 6 months free trial)
               <br />
-              <strong>Month 3:</strong> $30/month (Buys VoiceDoc, gets FixMoose Basic FREE forever)
+              <strong>Month 3:</strong> $30/month (Buys VoiceDoc, gets FixMoose Basic FREE with subscription)
               <br />
               <strong>Month 5:</strong> $79/month (Upgrades to FixMoose Pro $49 for unlimited jobs + homeowner portal)
               <br />
@@ -434,7 +434,7 @@ const HomePage = () => {
                 <br /><br />
                 <strong>Scale Economics:</strong> At 10,000 VoiceDoc users → $300K/month revenue, $20K/month Claude API costs. $280K gross profit (93% margin). This is SaaS-level economics with AI intelligence.
                 <br /><br />
-                <strong>Widget subscribers get FixMoose Basic FREE forever</strong> because the widget margins cover platform costs. Non-widget users pay $19/month after 6-month trial (platform-only, no AI).
+                <strong>Widget subscribers get FixMoose Basic FREE with subscription</strong> because the widget margins cover platform costs. Non-widget users pay $19/month after 6-month trial (platform-only, no AI).
               </p>
             </div>
           </div>
@@ -451,7 +451,7 @@ const HomePage = () => {
               <div className="ltv-month">
                 <div className="month-label">Month 3</div>
                 <div className="month-revenue">$30</div>
-                <div className="month-detail">Buys VoiceDoc ($30), gets FixMoose Basic FREE forever</div>
+                <div className="month-detail">Buys VoiceDoc ($30), gets FixMoose Basic FREE with subscription</div>
               </div>
               <div className="ltv-arrow">→</div>
               <div className="ltv-month">
