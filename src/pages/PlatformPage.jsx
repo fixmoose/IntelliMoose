@@ -14,7 +14,7 @@ const PlatformPage = () => {
         </Link>
 
         <div className="product-hero-icon">🔗</div>
-        <h1 className="product-hero-title">The FixMoose Platform Strategy</h1>
+        <h1 className="product-hero-title">The IntelliMoose Platform Strategy</h1>
         <p className="product-hero-tagline">
           Free Tier Hook → Platform Lock-In → 9x Revenue Expansion → $1B+ Exit
         </p>

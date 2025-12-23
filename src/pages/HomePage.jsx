@@ -15,18 +15,18 @@ const HomePage = () => {
         </div>
 
         <h1 className="hero-title">
-          FixMoose
+          IntelliMoose
           <br />
-          <span className="gradient-text">The AI-Powered Operating System for Skilled Trades</span>
+          <span className="gradient-text">AI Infrastructure for Skilled Trades</span>
         </h1>
 
         <p className="hero-tagline">
-          Job management platform that contractors actually use—because AI handles the data entry.
+          Platform + AI widgets that contractors actually use—because AI handles the data entry.
         </p>
 
         <p className="hero-description">
-          FixMoose is the core platform for 3.5M skilled tradespeople. Job tracking, invoicing, customer management, compliance—
-          all powered by AI that listens to your voice, watches through your camera, and monitors job sites automatically.
+          IntelliMoose powers 3.5M skilled tradespeople with FixMoose (job management platform) and AI widgets (VoiceDoc, CodeSnap, SafetyEye).
+          Job tracking, invoicing, customer management, compliance—all powered by AI that listens to your voice, watches through your camera, and monitors job sites automatically.
           <strong> Get started FREE, upgrade as you grow.</strong>
         </p>
 
