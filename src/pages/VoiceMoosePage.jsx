@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './ProductPage.css';
 
-const VoiceDocPage = () => {
+const VoiceMoosePage = () => {
   return (
     <div className="product-page">
       <div className="animated-bg"></div>
@@ -14,7 +14,7 @@ const VoiceDocPage = () => {
         </Link>
 
         <div className="product-hero-icon">🎙️</div>
-        <h1 className="product-hero-title">VoiceDoc</h1>
+        <h1 className="product-hero-title">VoiceMoose</h1>
         <p className="product-hero-tagline">
           Talk While You Work. AI Handles the Paperwork.
         </p>
@@ -71,7 +71,7 @@ const VoiceDocPage = () => {
 
         <div className="problem-description">
           <p style={{ fontSize: '1.3rem', textAlign: 'center', marginBottom: '3rem' }}>
-            <strong>VoiceDoc is a mobile app (iOS & Android) that works with any Bluetooth earpiece you already own.</strong>
+            <strong>VoiceMoose is a mobile app (iOS & Android) that works with any Bluetooth earpiece you already own.</strong>
           </p>
         </div>
 
@@ -134,11 +134,11 @@ const VoiceDocPage = () => {
       <section className="product-section dark">
         <div className="fixmoose-callout">
           <div className="fixmoose-badge">🎁 INCLUDED FREE</div>
-          <h2>Every VoiceDoc Subscription Includes FREE FixMoose Basic Account</h2>
+          <h2>Every VoiceMoose Subscription Includes FREE FixMoose Basic Account</h2>
 
           <div className="fixmoose-details">
             <p style={{ fontSize: '1.2rem', textAlign: 'center', marginBottom: '2rem' }}>
-              VoiceDoc generates your work orders and invoices. FixMoose stores them, organizes them, and shares them with customers.
+              VoiceMoose generates your work orders and invoices. FixMoose stores them, organizes them, and shares them with customers.
             </p>
 
             <div className="fixmoose-grid">
@@ -167,7 +167,7 @@ const VoiceDocPage = () => {
             </div>
 
             <div className="fixmoose-note">
-              <p><strong>Why FixMoose?</strong> All your AI widgets (VoiceDoc, CodeSnap, SafetyEye) feed into one central platform.
+              <p><strong>Why FixMoose?</strong> All your AI widgets (VoiceMoose, CodeSnap, SafetyEye) feed into one central platform.
               Job data, customer history, photos, compliance reports—everything in one place. Start free, upgrade when you outgrow the limits.</p>
               <Link to="/platform" className="fixmoose-link">Learn more about FixMoose Platform →</Link>
             </div>
@@ -260,7 +260,7 @@ const VoiceDocPage = () => {
             <p>
               <strong>Scenario:</strong> Electrician Sarah is at the breaker panel, needs to document what she's doing for inspector.
               <br /><br />
-              <strong>Action:</strong> Opens VoiceDoc app, taps microphone button, speaks: "Adding 20-amp GFCI breaker for garage outlets,
+              <strong>Action:</strong> Opens VoiceMoose app, taps microphone button, speaks: "Adding 20-amp GFCI breaker for garage outlets,
               position 18, using Square D QO220GFI, wired with 12-2 copper, connected to bus bar, tested trip function, labeled 'Garage Outlets West Wall'."
               <br /><br />
               <strong>Result (instant):</strong>
@@ -283,7 +283,7 @@ const VoiceDocPage = () => {
             <p>
               <strong>Scenario:</strong> Plumber Tom finished 4 service calls. Sitting in truck, needs to document everything for billing.
               <br /><br />
-              <strong>Action:</strong> Tom opens VoiceDoc, says: "Roger Observe. First job, 123 Oak Street, kitchen sink drain clog,
+              <strong>Action:</strong> Tom opens VoiceMoose, says: "Roger Observe. First job, 123 Oak Street, kitchen sink drain clog,
               snaked 25 feet, cleared hair blockage, tested flow, customer happy. Second job, 456 Maple, leaking toilet flange,
               replaced wax ring and closet bolts, Fluidmaster parts, tested for leaks. Third job, 789 Pine, no hot water, replaced
               40-gallon AO Smith water heater, included expansion tank, customer paid cash, $1,850. Fourth job, 321 Elm,
@@ -705,7 +705,7 @@ const VoiceDocPage = () => {
         <div className="competitive-table">
           <div className="competitive-header">
             <div></div>
-            <div>VoiceDoc</div>
+            <div>VoiceMoose</div>
             <div>Generic Voice Assistants</div>
             <div>Manual Documentation</div>
           </div>
@@ -749,7 +749,7 @@ const VoiceDocPage = () => {
 
       {/* CTA */}
       <section className="product-cta">
-        <h2>Ready to Build VoiceDoc?</h2>
+        <h2>Ready to Build VoiceMoose?</h2>
         <p>10-14 days to working prototype. $500-1K in build costs. $30/month SaaS revenue per user.</p>
         <div className="cta-buttons">
           <Link to="/" className="glow-button secondary">
@@ -764,4 +764,4 @@ const VoiceDocPage = () => {
   );
 };
 
-export default VoiceDocPage;
+export default VoiceMoosePage;

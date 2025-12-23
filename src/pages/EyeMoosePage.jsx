@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './ProductPage.css';
 
-const SafetyEyePage = () => {
+const EyeMoosePage = () => {
   return (
     <div className="product-page">
       <div className="animated-bg"></div>
@@ -14,7 +14,7 @@ const SafetyEyePage = () => {
         </Link>
 
         <div className="product-hero-icon">👁️</div>
-        <h1 className="product-hero-title">SafetyEye</h1>
+        <h1 className="product-hero-title">EyeMoose</h1>
         <p className="product-hero-tagline">
           24/7 AI Safety Monitor. See Hazards Before Accidents Happen.
         </p>
@@ -76,7 +76,7 @@ const SafetyEyePage = () => {
 
         <div className="problem-description">
           <p style={{ fontSize: '1.3rem', textAlign: 'center', marginBottom: '3rem' }}>
-            <strong>SafetyEye is a complete hardware + software system: weatherproof camera + edge AI processor + mobile/web dashboard.</strong>
+            <strong>EyeMoose is a complete hardware + software system: weatherproof camera + edge AI processor + mobile/web dashboard.</strong>
           </p>
         </div>
 
@@ -149,11 +149,11 @@ const SafetyEyePage = () => {
       <section className="product-section dark">
         <div className="fixmoose-callout">
           <div className="fixmoose-badge">🎁 INCLUDED FREE</div>
-          <h2>Every SafetyEye Subscription Includes FREE FixMoose Basic Account</h2>
+          <h2>Every EyeMoose Subscription Includes FREE FixMoose Basic Account</h2>
 
           <div className="fixmoose-details">
             <p style={{ fontSize: '1.2rem', textAlign: 'center', marginBottom: '2rem' }}>
-              SafetyEye detects hazards and violations. FixMoose stores the incident reports, OSHA docs, and safety records for every job.
+              EyeMoose detects hazards and violations. FixMoose stores the incident reports, OSHA docs, and safety records for every job.
             </p>
 
             <div className="fixmoose-grid">
@@ -182,7 +182,7 @@ const SafetyEyePage = () => {
             </div>
 
             <div className="fixmoose-note">
-              <p><strong>Why FixMoose?</strong> All your AI widgets (VoiceDoc, CodeSnap, SafetyEye) feed into one central platform.
+              <p><strong>Why FixMoose?</strong> All your AI widgets (VoiceDoc, CodeSnap, EyeMoose) feed into one central platform.
               Job data, customer history, photos, compliance reports—everything in one place. Start free, upgrade when you outgrow the limits.</p>
               <Link to="/platform" className="fixmoose-link">Learn more about FixMoose Platform →</Link>
             </div>
@@ -314,7 +314,7 @@ const SafetyEyePage = () => {
 
       {/* Detected Hazards */}
       <section className="product-section dark">
-        <h2>Hazards Detected by SafetyEye</h2>
+        <h2>Hazards Detected by EyeMoose</h2>
 
         <div className="features-grid">
           <div className="feature-card">
@@ -637,7 +637,7 @@ const SafetyEyePage = () => {
         <div className="competitive-table">
           <div className="competitive-header">
             <div></div>
-            <div>SafetyEye</div>
+            <div>EyeMoose</div>
             <div>Cloud Safety Cameras</div>
             <div>Manual Safety Officers</div>
           </div>
@@ -695,7 +695,7 @@ const SafetyEyePage = () => {
 
       {/* CTA */}
       <section className="product-cta">
-        <h2>Ready to Build SafetyEye?</h2>
+        <h2>Ready to Build EyeMoose?</h2>
         <p>12-16 days to working prototype. $2-3K in build costs (hardware, dataset). $200 hardware + $50/month SaaS revenue.</p>
         <div className="cta-buttons">
           <Link to="/" className="glow-button secondary">
@@ -710,4 +710,4 @@ const SafetyEyePage = () => {
   );
 };
 
-export default SafetyEyePage;
+export default EyeMoosePage;

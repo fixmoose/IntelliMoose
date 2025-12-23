@@ -25,7 +25,7 @@ const HomePage = () => {
         </p>
 
         <p className="hero-description">
-          IntelliMoose powers 3.5M skilled tradespeople with FixMoose (job management platform) and AI widgets (VoiceDoc, CodeSnap, SafetyEye).
+          IntelliMoose powers 3.5M skilled tradespeople with FixMoose (job management platform) and AI widgets (VoiceMoose, SnapMoose, EyeMoose).
           Job tracking, invoicing, customer management, compliance—all powered by AI that listens to your voice, watches through your camera, and monitors job sites automatically.
           <strong> Get started FREE, upgrade as you grow.</strong>
         </p>
@@ -131,26 +131,26 @@ const HomePage = () => {
           <div className="widgets-grid">
             <div className="widget-card">
               <div className="widget-icon">🎙️</div>
-              <h4>VoiceDoc</h4>
+              <h4>VoiceMoose</h4>
               <p><strong>$30/month</strong></p>
               <p>Talk while you work. AI extracts materials, labor, generates work orders and invoices from your voice.</p>
-              <Link to="/voicedoc" className="widget-link">Learn More →</Link>
+              <Link to="/voicemoose" className="widget-link">Learn More →</Link>
             </div>
 
             <div className="widget-card">
               <div className="widget-icon">📸</div>
-              <h4>CodeSnap</h4>
+              <h4>SnapMoose</h4>
               <p><strong>$50/month</strong></p>
               <p>Point phone at electrical panel. AI detects code violations, references NEC, prevents failed inspections.</p>
-              <Link to="/codesnap" className="widget-link">Learn More →</Link>
+              <Link to="/snapmoose" className="widget-link">Learn More →</Link>
             </div>
 
             <div className="widget-card">
               <div className="widget-icon">👁️</div>
-              <h4>SafetyEye</h4>
+              <h4>EyeMoose</h4>
               <p><strong>$200 + $50/month</strong></p>
               <p>Camera watches job site 24/7. AI detects PPE violations, hazards, near-misses. Audio alerts + OSHA reports.</p>
-              <Link to="/safetyeye" className="widget-link">Learn More →</Link>
+              <Link to="/eyemoose" className="widget-link">Learn More →</Link>
             </div>
           </div>
         </div>
@@ -161,7 +161,7 @@ const HomePage = () => {
             <div className="strategy-step">
               <div className="step-number">1</div>
               <h4>Hook with Free Tier</h4>
-              <p>Contractor signs up for FREE FixMoose Basic (6 months free, then $19/mo). OR buys VoiceDoc ($30/mo) and gets FixMoose Basic FREE with subscription.</p>
+              <p>Contractor signs up for FREE FixMoose Basic (6 months free, then $19/mo). OR buys VoiceMoose ($30/mo) and gets FixMoose Basic FREE with subscription.</p>
             </div>
             <div className="strategy-arrow">→</div>
             <div className="strategy-step">
@@ -173,13 +173,13 @@ const HomePage = () => {
             <div className="strategy-step">
               <div className="step-number">3</div>
               <h4>Upsell to Pro ($49/month)</h4>
-              <p>Unlocks unlimited jobs, 10GB storage, homeowner portal. Total spend: $79/mo (VoiceDoc $30 + FixMoose Pro $49). Homeowners see invoices, approve work.</p>
+              <p>Unlocks unlimited jobs, 10GB storage, homeowner portal. Total spend: $79/mo (VoiceMoose $30 + FixMoose Pro $49). Homeowners see invoices, approve work.</p>
             </div>
             <div className="strategy-arrow">→</div>
             <div className="strategy-step">
               <div className="step-number">4</div>
               <h4>Add More Widgets</h4>
-              <p>Buys CodeSnap ($50/month) to prevent failed inspections. Then SafetyEye ($50/month) for insurance discounts. Total: $179/month.</p>
+              <p>Buys SnapMoose ($50/month) to prevent failed inspections. Then EyeMoose ($50/month) for insurance discounts. Total: $179/month.</p>
             </div>
             <div className="strategy-arrow">→</div>
             <div className="strategy-step">
@@ -194,13 +194,13 @@ const HomePage = () => {
             <p>
               <strong>Month 1:</strong> $0/month (FixMoose Basic - 6 months free trial)
               <br />
-              <strong>Month 3:</strong> $30/month (Buys VoiceDoc, gets FixMoose Basic FREE with subscription)
+              <strong>Month 3:</strong> $30/month (Buys VoiceMoose, gets FixMoose Basic FREE with subscription)
               <br />
               <strong>Month 5:</strong> $79/month (Upgrades to FixMoose Pro $49 for unlimited jobs + homeowner portal)
               <br />
-              <strong>Month 8:</strong> $129/month (Adds CodeSnap widget $50)
+              <strong>Month 8:</strong> $129/month (Adds SnapMoose widget $50)
               <br />
-              <strong>Month 11:</strong> $179/month (Adds SafetyEye widget $50)
+              <strong>Month 11:</strong> $179/month (Adds EyeMoose widget $50)
               <br />
               <strong>Month 14:</strong> $269/month (Upgrades to Teams plan $99 + $60 for 3 users)
             </p>
@@ -227,7 +227,7 @@ const HomePage = () => {
             </div>
             <div className="moat-card">
               <h4>🏆 Team Training & Certifications</h4>
-              <p>Team certified on SafetyEye, trained on VoiceDoc workflows. Switching means retraining entire crew. Muscle memory = moat.</p>
+              <p>Team certified on EyeMoose, trained on VoiceMoose workflows. Switching means retraining entire crew. Muscle memory = moat.</p>
             </div>
           </div>
         </div>
@@ -241,10 +241,10 @@ const HomePage = () => {
         </p>
 
         <div className="products-grid">
-          {/* VoiceDoc */}
-          <Link to="/voicedoc" className="product-card">
+          {/* VoiceMoose */}
+          <Link to="/voicemoose" className="product-card">
             <div className="product-icon">🎙️</div>
-            <h3>VoiceDoc</h3>
+            <h3>VoiceMoose</h3>
             <p className="product-tagline">Voice → Documentation in Real-Time</p>
             <p className="product-description">
               "Roger Observe" → talk while you work → "Roger Stop" → get work orders, invoices, compliance docs.
@@ -267,10 +267,10 @@ const HomePage = () => {
             <span className="product-cta">Learn More →</span>
           </Link>
 
-          {/* CodeSnap */}
-          <Link to="/codesnap" className="product-card">
+          {/* SnapMoose */}
+          <Link to="/snapmoose" className="product-card">
             <div className="product-icon">📸</div>
-            <h3>CodeSnap</h3>
+            <h3>SnapMoose</h3>
             <p className="product-tagline">Instant Code Compliance Checking</p>
             <p className="product-description">
               Point phone at electrical panel → AI detects NEC violations → get inspection-ready PDF.
@@ -293,10 +293,10 @@ const HomePage = () => {
             <span className="product-cta">Learn More →</span>
           </Link>
 
-          {/* SafetyEye */}
-          <Link to="/safetyeye" className="product-card">
+          {/* EyeMoose */}
+          <Link to="/eyemoose" className="product-card">
             <div className="product-icon">👁️</div>
-            <h3>SafetyEye</h3>
+            <h3>EyeMoose</h3>
             <p className="product-tagline">AI-Powered Safety Monitoring</p>
             <p className="product-description">
               $200 camera kit watches job sites 24/7 → detects PPE violations, hazards, near-misses → real-time audio alerts + OSHA reports.
@@ -408,7 +408,7 @@ const HomePage = () => {
             </div>
             <div className="econ-card">
               <h4>Widget Expansion</h4>
-              <p>Customer buys 2nd widget (CodeSnap $50/month), then 3rd (SafetyEye $50/month). Each widget feeds into same FixMoose platform—more lock-in.</p>
+              <p>Customer buys 2nd widget (SnapMoose $50/month), then 3rd (EyeMoose $50/month). Each widget feeds into same FixMoose platform—more lock-in.</p>
               <p><strong>Attach rate: 2.1 widgets per customer</strong> (by month 9)</p>
             </div>
             <div className="econ-card">
@@ -424,7 +424,7 @@ const HomePage = () => {
               <p>
                 <strong>The Challenge:</strong> AI widgets use Claude API for intelligence. Can't give away AI for free—costs add up fast.
                 <br /><br />
-                <strong>Our Solution:</strong> $30/month VoiceDoc subscription covers ~20 customers' Claude API costs. We charge $30, Claude costs us ~$2/month per user = <strong>1,400% margin.</strong>
+                <strong>Our Solution:</strong> $30/month VoiceMoose subscription covers ~20 customers' Claude API costs. We charge $30, Claude costs us ~$2/month per user = <strong>1,400% margin.</strong>
                 <br /><br />
                 <strong>How we achieve this:</strong>
                 <br />• 95% of processing happens on-device (Whisper, YOLOv8) = FREE (no API calls)
@@ -432,7 +432,7 @@ const HomePage = () => {
                 <br />• Average user: 50 API calls/month × $0.04/call = $2/month in Claude costs
                 <br />• We charge $30/month → $28 gross margin per user (93% gross margin!)
                 <br /><br />
-                <strong>Scale Economics:</strong> At 10,000 VoiceDoc users → $300K/month revenue, $20K/month Claude API costs. $280K gross profit (93% margin). This is SaaS-level economics with AI intelligence.
+                <strong>Scale Economics:</strong> At 10,000 VoiceMoose users → $300K/month revenue, $20K/month Claude API costs. $280K gross profit (93% margin). This is SaaS-level economics with AI intelligence.
                 <br /><br />
                 <strong>Widget subscribers get FixMoose Basic FREE with subscription</strong> because the widget margins cover platform costs. Non-widget users pay $19/month after 6-month trial (platform-only, no AI).
               </p>
@@ -451,7 +451,7 @@ const HomePage = () => {
               <div className="ltv-month">
                 <div className="month-label">Month 3</div>
                 <div className="month-revenue">$30</div>
-                <div className="month-detail">Buys VoiceDoc ($30), gets FixMoose Basic FREE with subscription</div>
+                <div className="month-detail">Buys VoiceMoose ($30), gets FixMoose Basic FREE with subscription</div>
               </div>
               <div className="ltv-arrow">→</div>
               <div className="ltv-month">
@@ -463,13 +463,13 @@ const HomePage = () => {
               <div className="ltv-month">
                 <div className="month-label">Month 8</div>
                 <div className="month-revenue">$129</div>
-                <div className="month-detail">Adds CodeSnap widget ($50) to prevent failed inspections</div>
+                <div className="month-detail">Adds SnapMoose widget ($50) to prevent failed inspections</div>
               </div>
               <div className="ltv-arrow">→</div>
               <div className="ltv-month">
                 <div className="month-label">Month 11</div>
                 <div className="month-revenue">$179</div>
-                <div className="month-detail">Adds SafetyEye widget ($50) for insurance discounts</div>
+                <div className="month-detail">Adds EyeMoose widget ($50) for insurance discounts</div>
               </div>
               <div className="ltv-arrow">→</div>
               <div className="ltv-month">
@@ -509,7 +509,7 @@ const HomePage = () => {
             </div>
             <div className="acquirer-card">
               <h4>Insurance (Travelers, Liberty Mutual)</h4>
-              <p>Workers' comp carriers want safety data. SafetyEye = $40B market for risk reduction tech.</p>
+              <p>Workers' comp carriers want safety data. EyeMoose = $40B market for risk reduction tech.</p>
               <span className="comparable">Ref: Motive $3.5B (fleet safety platform)</span>
             </div>
             <div className="acquirer-card">

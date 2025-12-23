@@ -54,7 +54,7 @@ const PlatformPage = () => {
               <strong>Path A (Platform-Only Users):</strong> Contractor signs up for FixMoose Basic. Gets 6 months FREE, then $19/month.
             </p>
             <p>
-              <strong>Path B (Widget Subscribers):</strong> Contractor buys VoiceDoc ($30/month) to save time on paperwork. Gets FREE FixMoose Basic account automatically with subscription:
+              <strong>Path B (Widget Subscribers):</strong> Contractor buys VoiceMoose ($30/month) to save time on paperwork. Gets FREE FixMoose Basic account automatically with subscription:
             </p>
             <ul>
               <li>5 active jobs (6th job triggers upgrade prompt)</li>
@@ -64,7 +64,7 @@ const PlatformPage = () => {
               <li>Mobile app (iOS & Android)</li>
             </ul>
             <p>
-              <strong>Customer perception (Path B):</strong> "I'm just buying VoiceDoc for $30/month, the platform is a bonus."
+              <strong>Customer perception (Path B):</strong> "I'm just buying VoiceMoose for $30/month, the platform is a bonus."
               <br />
               <strong>Reality:</strong> We're getting them hooked on the platform with generous-seeming limits designed to hit in 2-3 months. Widget margins (93%!) cover platform costs.
             </p>
@@ -98,17 +98,17 @@ const PlatformPage = () => {
           <div className="tech-layer">
             <h3>Step 3: Platform Expansion - Add More Widgets</h3>
             <p>
-              Now customer is paying $79/month (VoiceDoc $30 + FixMoose Pro $49). All data flows into FixMoose. We upsell additional widgets:
+              Now customer is paying $79/month (VoiceMoose $30 + FixMoose Pro $49). All data flows into FixMoose. We upsell additional widgets:
             </p>
             <ul>
-              <li><strong>CodeSnap ($50/month):</strong> "Prevent failed inspections. Code violation reports auto-save to FixMoose job records."</li>
-              <li><strong>SafetyEye ($200 + $50/month):</strong> "Get insurance discounts. Safety incidents auto-log to FixMoose for OSHA reports."</li>
+              <li><strong>SnapMoose ($50/month):</strong> "Prevent failed inspections. Code violation reports auto-save to FixMoose job records."</li>
+              <li><strong>EyeMoose ($200 + $50/month):</strong> "Get insurance discounts. Safety incidents auto-log to FixMoose for OSHA reports."</li>
             </ul>
             <p>
               <strong>Widget Attach Rate:</strong> 2.1 widgets per customer by month 9. Each widget makes FixMoose more valuable (more data, more integrations, more lock-in).
             </p>
             <p>
-              <strong>Customer is now at $179/month:</strong> VoiceDoc ($30) + CodeSnap ($50) + SafetyEye ($50) + FixMoose Pro ($49).
+              <strong>Customer is now at $179/month:</strong> VoiceMoose ($30) + SnapMoose ($50) + EyeMoose ($50) + FixMoose Pro ($49).
             </p>
           </div>
 
@@ -119,16 +119,16 @@ const PlatformPage = () => {
             </p>
             <ul>
               <li><strong>FixMoose Teams:</strong> $99/month base + $20/user (3 users = $99 + $60 = $159/month for platform)</li>
-              <li><strong>Plus widgets:</strong> VoiceDoc licenses for 2 more workers ($60), CodeSnap for lead electrician ($50), SafetyEye (shared, no extra cost)</li>
+              <li><strong>Plus widgets:</strong> VoiceMoose licenses for 2 more workers ($60), SnapMoose for lead electrician ($50), EyeMoose (shared, no extra cost)</li>
             </ul>
             <p>
               <strong>Total Monthly Spend (Month 12):</strong> $269/month
               <br />
-              VoiceDoc: $90 (3 users × $30)
+              VoiceMoose: $90 (3 users × $30)
               <br />
-              CodeSnap: $50 (lead electrician only)
+              SnapMoose: $50 (lead electrician only)
               <br />
-              SafetyEye: $50 (job site camera)
+              EyeMoose: $50 (job site camera)
               <br />
               FixMoose Teams: $79 ($99 base, 2 additional users discounted to $40 total in bundle pricing)
             </p>
@@ -265,17 +265,17 @@ const PlatformPage = () => {
               <li><strong>95% of AI processing happens on-device (FREE):</strong> Whisper for speech recognition (80MB model runs on phone). YOLOv8 for vision detection (50MB model). GPT-4o-mini quantized for basic extraction (50MB). Total: 180MB download, zero ongoing API costs.</li>
               <li><strong>Only 5% hits Claude API (expensive):</strong> Complex queries, edge cases, cloud-enhanced formatting. Average user: 50 API calls/month.</li>
               <li><strong>Cost per user:</strong> 50 calls/month × $0.04/call (Claude Haiku) = <strong>$2/month in API costs.</strong></li>
-              <li><strong>We charge $30/month for VoiceDoc.</strong> Gross margin: $28/user (93% margin!)</li>
+              <li><strong>We charge $30/month for VoiceMoose.</strong> Gross margin: $28/user (93% margin!)</li>
             </ul>
             <p>
-              <strong>Scale Economics:</strong> At 10,000 VoiceDoc users → $300K/month revenue. Claude API costs: $20K/month. Gross profit: $280K/month (93% margin). This is SaaS-level economics with AI intelligence.
+              <strong>Scale Economics:</strong> At 10,000 VoiceMoose users → $300K/month revenue. Claude API costs: $20K/month. Gross profit: $280K/month (93% margin). This is SaaS-level economics with AI intelligence.
             </p>
           </div>
 
           <div className="tech-layer">
             <h3>Why Widget Subscribers Get FixMoose Basic FREE Forever</h3>
             <p>
-              <strong>Widget margins cover platform costs.</strong> VoiceDoc: $30/month revenue, $2/month API costs, $5/month platform hosting/support = $23/month gross profit per user.
+              <strong>Widget margins cover platform costs.</strong> VoiceMoose: $30/month revenue, $2/month API costs, $5/month platform hosting/support = $23/month gross profit per user.
             </p>
             <p>
               FixMoose Basic costs us ~$3/month to host (AWS, database, support). By giving it away FREE to widget subscribers, we still make $20/month gross profit. And we lock them into the platform ecosystem.
@@ -303,7 +303,7 @@ const PlatformPage = () => {
 
         <div className="problem-description">
           <p>
-            <strong>Single-product companies get acquired for 3-5x revenue.</strong> If VoiceDoc alone reaches $10M ARR,
+            <strong>Single-product companies get acquired for 3-5x revenue.</strong> If VoiceMoose alone reaches $10M ARR,
             that's a $30-50M exit. Good, but not generational wealth. Not a unicorn.
           </p>
           <p>
@@ -342,7 +342,7 @@ const PlatformPage = () => {
         <div className="demo-flow">
           <div className="demo-step">
             <div className="step-content">
-              <h3>🎙️ VoiceDoc</h3>
+              <h3>🎙️ VoiceMoose</h3>
               <p>
                 Generates structured data: work orders, material lists, compliance notes. This data feeds the other products.
                 <br /><br />
@@ -355,9 +355,9 @@ const PlatformPage = () => {
 
           <div className="demo-step">
             <div className="step-content">
-              <h3>📸 CodeSnap</h3>
+              <h3>📸 SnapMoose</h3>
               <p>
-                Uses VoiceDoc data to understand job context. "Installing GFCI in bathroom" (from VoiceDoc) → CodeSnap knows to check for NEC 210.8(A)(1) compliance.
+                Uses VoiceMoose data to understand job context. "Installing GFCI in bathroom" (from VoiceMoose) → SnapMoose knows to check for NEC 210.8(A)(1) compliance.
                 <br /><br />
                 <strong>Data created:</strong> Code violations, NEC citations, correction history.
               </p>
@@ -368,9 +368,9 @@ const PlatformPage = () => {
 
           <div className="demo-step">
             <div className="step-content">
-              <h3>👁️ SafetyEye</h3>
+              <h3>👁️ EyeMoose</h3>
               <p>
-                Knows what work is happening (from VoiceDoc) and where (from CodeSnap). Adjusts hazard detection based on job type.
+                Knows what work is happening (from VoiceMoose) and where (from SnapMoose). Adjusts hazard detection based on job type.
                 "Trenching" job → monitors for trench collapse, confined space violations.
                 <br /><br />
                 <strong>Data created:</strong> Safety incidents, near-misses, worker behavior patterns.
@@ -381,8 +381,8 @@ const PlatformPage = () => {
 
         <div className="problem-description" style={{ marginTop: '3rem' }}>
           <p>
-            <strong>The Flywheel:</strong> More VoiceDoc users → more structured job data → better CodeSnap predictions
-            (AI learns common violations per job type) → better SafetyEye hazard detection (knows which hazards correlate with which jobs).
+            <strong>The Flywheel:</strong> More VoiceMoose users → more structured job data → better SnapMoose predictions
+            (AI learns common violations per job type) → better EyeMoose hazard detection (knows which hazards correlate with which jobs).
           </p>
           <p>
             <strong>Result:</strong> Each product gets smarter as the platform grows. Competitors can copy individual features,
@@ -399,10 +399,10 @@ const PlatformPage = () => {
           <div className="tech-layer">
             <h3>What Data We Collect Across the Platform</h3>
             <ul>
-              <li><strong>VoiceDoc:</strong> 10,000 hours of trade-specific speech (product names, work descriptions, compliance terminology). Structured job data (time, materials, labor, outcomes).</li>
-              <li><strong>CodeSnap:</strong> 500,000 labeled images of electrical installations (correct vs. violations). Violation patterns by region, contractor, job type.</li>
-              <li><strong>SafetyEye:</strong> 1M hours of construction site video (anonymized). Near-miss incidents, hazard timings, safety compliance trends.</li>
-              <li><strong>Cross-Product:</strong> Correlation data. "Jobs with &gt;5 code violations have 3x higher safety incidents." "Contractors who use VoiceDoc have 40% fewer failed inspections."</li>
+              <li><strong>VoiceMoose:</strong> 10,000 hours of trade-specific speech (product names, work descriptions, compliance terminology). Structured job data (time, materials, labor, outcomes).</li>
+              <li><strong>SnapMoose:</strong> 500,000 labeled images of electrical installations (correct vs. violations). Violation patterns by region, contractor, job type.</li>
+              <li><strong>EyeMoose:</strong> 1M hours of construction site video (anonymized). Near-miss incidents, hazard timings, safety compliance trends.</li>
+              <li><strong>Cross-Product:</strong> Correlation data. "Jobs with &gt;5 code violations have 3x higher safety incidents." "Contractors who use VoiceMoose have 40% fewer failed inspections."</li>
             </ul>
           </div>
 
@@ -437,7 +437,7 @@ const PlatformPage = () => {
             <div className="feature-icon">🔗</div>
             <h3>Integrated Workflow</h3>
             <p>
-              Electrician uses VoiceDoc to document job → CodeSnap to verify compliance → SafetyEye monitors while working.
+              Electrician uses VoiceMoose to document job → SnapMoose to verify compliance → EyeMoose monitors while working.
               All data syncs to single dashboard. Switching to competitors means losing this integration—back to manual, fragmented tools.
             </p>
           </div>
@@ -537,7 +537,7 @@ const PlatformPage = () => {
             <h4>🛡️ Insurance (Travelers, Liberty Mutual, Zurich)</h4>
             <p>
               <strong>Why they want us:</strong> Workers' comp costs $40B/year. Our platform reduces claims by 30-40% (measured). Insurers want
-              to own the risk reduction tech. Bundle SafetyEye with insurance policies—premium discounts for users.
+              to own the risk reduction tech. Bundle EyeMoose with insurance policies—premium discounts for users.
             </p>
             <p>
               <strong>What they pay for:</strong> Proprietary risk scoring algorithms. 100K+ contractors already using platform (instant distribution
@@ -631,7 +631,7 @@ const PlatformPage = () => {
             <h3>Smartphones Are Ubiquitous</h3>
             <p>
               85% of tradespeople have smartphones (2023 data). They use them for photos, texting, GPS—but not for AI-powered
-              work tools. Distribution is solved. No need to sell hardware (except SafetyEye cameras). App-based go-to-market.
+              work tools. Distribution is solved. No need to sell hardware (except EyeMoose cameras). App-based go-to-market.
             </p>
           </div>
 
@@ -648,7 +648,7 @@ const PlatformPage = () => {
             <div className="feature-icon">💰</div>
             <h3>Insurance Costs Are Exploding</h3>
             <p>
-              Workers' comp premiums up 20-30% in last 3 years. Contractors need to prove safety to avoid rate hikes. SafetyEye
+              Workers' comp premiums up 20-30% in last 3 years. Contractors need to prove safety to avoid rate hikes. EyeMoose
               provides documented evidence of proactive safety management. ROI is immediate (premium savings &gt; subscription cost).
             </p>
           </div>

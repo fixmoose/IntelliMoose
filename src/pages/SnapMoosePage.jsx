@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './ProductPage.css';
 
-const CodeSnapPage = () => {
+const SnapMoosePage = () => {
   return (
     <div className="product-page">
       <div className="animated-bg"></div>
@@ -14,7 +14,7 @@ const CodeSnapPage = () => {
         </Link>
 
         <div className="product-hero-icon">📸</div>
-        <h1 className="product-hero-title">CodeSnap</h1>
+        <h1 className="product-hero-title">SnapMoose</h1>
         <p className="product-hero-tagline">
           Point Your Phone. Know the Code. Avoid the Fine.
         </p>
@@ -76,7 +76,7 @@ const CodeSnapPage = () => {
 
         <div className="problem-description">
           <p style={{ fontSize: '1.3rem', textAlign: 'center', marginBottom: '3rem' }}>
-            <strong>CodeSnap is a mobile app (iOS & Android) that uses your phone's camera to check electrical code compliance.</strong>
+            <strong>SnapMoose is a mobile app (iOS & Android) that uses your phone's camera to check electrical code compliance.</strong>
           </p>
         </div>
 
@@ -142,11 +142,11 @@ const CodeSnapPage = () => {
       <section className="product-section dark">
         <div className="fixmoose-callout">
           <div className="fixmoose-badge">🎁 INCLUDED FREE</div>
-          <h2>Every CodeSnap Subscription Includes FREE FixMoose Basic Account</h2>
+          <h2>Every SnapMoose Subscription Includes FREE FixMoose Basic Account</h2>
 
           <div className="fixmoose-details">
             <p style={{ fontSize: '1.2rem', textAlign: 'center', marginBottom: '2rem' }}>
-              CodeSnap detects code violations. FixMoose stores the reports, photos, and compliance docs for every job.
+              SnapMoose detects code violations. FixMoose stores the reports, photos, and compliance docs for every job.
             </p>
 
             <div className="fixmoose-grid">
@@ -175,7 +175,7 @@ const CodeSnapPage = () => {
             </div>
 
             <div className="fixmoose-note">
-              <p><strong>Why FixMoose?</strong> All your AI widgets (VoiceDoc, CodeSnap, SafetyEye) feed into one central platform.
+              <p><strong>Why FixMoose?</strong> All your AI widgets (VoiceDoc, SnapMoose, SafetyEye) feed into one central platform.
               Job data, customer history, photos, compliance reports—everything in one place. Start free, upgrade when you outgrow the limits.</p>
               <Link to="/platform" className="fixmoose-link">Learn more about FixMoose Platform →</Link>
             </div>
@@ -549,7 +549,7 @@ const CodeSnapPage = () => {
         <div className="competitive-table">
           <div className="competitive-header">
             <div></div>
-            <div>CodeSnap</div>
+            <div>SnapMoose</div>
             <div>Manual Code Books</div>
             <div>Generic Photo Apps</div>
           </div>
@@ -600,7 +600,7 @@ const CodeSnapPage = () => {
 
       {/* CTA */}
       <section className="product-cta">
-        <h2>Ready to Build CodeSnap?</h2>
+        <h2>Ready to Build SnapMoose?</h2>
         <p>10-14 days to working prototype. $1-2K in build costs (dataset, API credits). $50/month SaaS revenue per user.</p>
         <div className="cta-buttons">
           <Link to="/" className="glow-button secondary">
@@ -615,4 +615,4 @@ const CodeSnapPage = () => {
   );
 };
 
-export default CodeSnapPage;
+export default SnapMoosePage;
