@@ -21,10 +21,11 @@
 }
 
 .footer-link {
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   transition: color 0.3s ease;
+  white-space: nowrap;
 }
 
 .footer-link:hover {
@@ -32,12 +33,13 @@
 }
 
 .footer-separator {
-  color: var(--text-secondary);
-  opacity: 0.5;
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+  margin: 0 0.25rem;
 }
 
 .footer-copyright {
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 0.85rem;
   line-height: 1.6;
 }
