@@ -3,6 +3,8 @@
   border-top: 1px solid rgba(6, 182, 212, 0.2);
   padding: 3rem 2rem 2rem;
   margin-top: 6rem;
+  position: relative;
+  z-index: 100;
 }
 
 .footer-content {
@@ -20,7 +22,10 @@
   flex-wrap: wrap;
 }
 
-.footer-link {
+/* Override any page-specific styles that might hide footer links */
+.product-page .legal-footer .footer-link,
+.homepage .legal-footer .footer-link,
+.legal-footer .footer-link {
   color: rgba(255, 255, 255, 0.9) !important;
   text-decoration: none !important;
   font-size: 1rem !important;
@@ -29,6 +34,8 @@
   display: inline-block !important;
   visibility: visible !important;
   opacity: 1 !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.9) !important;
+  text-fill-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .footer-link:hover {
