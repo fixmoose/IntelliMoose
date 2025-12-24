@@ -177,33 +177,13 @@ const InvestorPitchPage = () => {
         <div className="business-grid">
           <div className="business-card">
             <h3>Pricing Tiers</h3>
-            <div className="pricing-breakdown">
-              <div className="pricing-item">
-                <span className="pricing-tier">SnapMoose</span>
-                <span className="pricing-value">$50/month</span>
-                <span className="pricing-desc">Photo-based code compliance (electrical + plumbing)</span>
-              </div>
-              <div className="pricing-item">
-                <span className="pricing-tier">VoiceMoose</span>
-                <span className="pricing-value">FREE*</span>
-                <span className="pricing-desc">*Included with SnapMoose subscription</span>
-              </div>
-              <div className="pricing-item">
-                <span className="pricing-tier">EyeMoose</span>
-                <span className="pricing-value">$99/month</span>
-                <span className="pricing-desc">AR glasses + real-time overlay ($299 hardware one-time)</span>
-              </div>
-              <div className="pricing-item">
-                <span className="pricing-tier">FixMoose Basic</span>
-                <span className="pricing-value">FREE*</span>
-                <span className="pricing-desc">*Included with any widget subscription</span>
-              </div>
-              <div className="pricing-item">
-                <span className="pricing-tier">FixMoose Pro</span>
-                <span className="pricing-value">$49/month</span>
-                <span className="pricing-desc">Unlimited jobs, 10GB storage, customer portal</span>
-              </div>
-            </div>
+            <ul className="economics-list">
+              <li><strong>SnapMoose:</strong> $50/month - Photo-based code compliance (electrical + plumbing)</li>
+              <li><strong>VoiceMoose:</strong> FREE* - *Included with SnapMoose subscription</li>
+              <li><strong>EyeMoose:</strong> $99/month - AR glasses + real-time overlay ($299 hardware one-time)</li>
+              <li><strong>FixMoose Basic:</strong> FREE* - *Included with any widget subscription</li>
+              <li><strong>FixMoose Pro:</strong> $49/month - Unlimited jobs, 10GB storage, customer portal</li>
+            </ul>
           </div>
 
           <div className="business-card">
@@ -214,7 +194,7 @@ const InvestorPitchPage = () => {
               <li><strong>Blended ARPU:</strong> $65/month weighted average</li>
               <li><strong>Churn:</strong> 3%/month (36-month avg retention)</li>
               <li><strong>LTV:</strong> $65 × 36 months = $2,340</li>
-              <li><strong>LTV:CAC:</strong> 11.7x (SaaS benchmark >3x is healthy)</li>
+              <li><strong>LTV:CAC:</strong> 11.7x (SaaS benchmark {'>'} 3x is healthy)</li>
               <li><strong>Gross Margin:</strong> 90% (pure software, AWS hosting ~$5/user/month)</li>
               <li><strong>Payback Period:</strong> 3 months (CAC $200 ÷ $65 monthly margin)</li>
             </ul>
@@ -368,26 +348,26 @@ const InvestorPitchPage = () => {
 
         <div className="market-size" style={{ marginTop: '3rem' }}>
           <h3>Go-to-Market Strategy</h3>
-          <div className="market-breakdown" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.5rem' }}>
-            <div className="market-tier" style={{ border: '1px solid var(--primary)', padding: '1.5rem', borderRadius: '12px' }}>
-              <span className="market-label">Month 1-3: Beta Onboarding (100 Users)</span>
-              <span className="market-desc">Invite 100 electricians from 2,300-person waitlist. Free beta access in exchange for feedback and testimonials. Target 90%+ accuracy on NEC violations before paid launch. Collect 50,000+ labeled photos for training data improvement.</span>
+          <div style={{ display: 'grid', gap: '1.5rem' }}>
+            <div style={{ border: '1px solid var(--primary)', padding: '1.5rem', borderRadius: '12px' }}>
+              <h4 style={{ marginTop: 0, marginBottom: '0.75rem', fontSize: '1.1rem', color: 'var(--primary)' }}>Month 1-3: Beta Onboarding (100 Users)</h4>
+              <p style={{ margin: 0, lineHeight: '1.7' }}>Invite 100 electricians from 2,300-person waitlist. Free beta access in exchange for feedback and testimonials. Target 90%+ accuracy on NEC violations before paid launch. Collect 50,000+ labeled photos for training data improvement.</p>
             </div>
-            <div className="market-tier" style={{ border: '1px solid var(--primary)', padding: '1.5rem', borderRadius: '12px' }}>
-              <span className="market-label">Month 4-6: Paid Launch (500 Users)</span>
-              <span className="market-desc">Launch $50/month SnapMoose subscription. Convert 80% of beta users to paid (80 users). Google Ads targeting "electrical code compliance" ($5 CPC, 5% conversion = $100 CAC). Trade show booth at NECA (National Electrical Contractors Assoc) convention - demo to 5,000+ electricians, capture 1,000 leads, convert 10% = 100 users.</span>
+            <div style={{ border: '1px solid var(--primary)', padding: '1.5rem', borderRadius: '12px' }}>
+              <h4 style={{ marginTop: 0, marginBottom: '0.75rem', fontSize: '1.1rem', color: 'var(--primary)' }}>Month 4-6: Paid Launch (500 Users)</h4>
+              <p style={{ margin: 0, lineHeight: '1.7' }}>Launch $50/month SnapMoose subscription. Convert 80% of beta users to paid (80 users). Google Ads targeting "electrical code compliance" ($5 CPC, 5% conversion = $100 CAC). Trade show booth at NECA (National Electrical Contractors Assoc) convention - demo to 5,000+ electricians, capture 1,000 leads, convert 10% = 100 users.</p>
             </div>
-            <div className="market-tier" style={{ border: '1px solid var(--primary)', padding: '1.5rem', borderRadius: '12px' }}>
-              <span className="market-label">Month 7-12: Scale to 5,000 Users ($3M ARR)</span>
-              <span className="market-desc">Launch referral program: existing users get $100 credit for each referral (viral coefficient 0.3 = 30% of users refer 1 friend). Partner with electrical supply distributors (Graybar, Rexel) for co-marketing - demo kiosks in 500 distributor locations. Launch YouTube channel with code violation tutorials (SEO for "NEC code violations" - 10K monthly searches). Expand to plumbing with UPC code compliance (+500K TAM).</span>
+            <div style={{ border: '1px solid var(--primary)', padding: '1.5rem', borderRadius: '12px' }}>
+              <h4 style={{ marginTop: 0, marginBottom: '0.75rem', fontSize: '1.1rem', color: 'var(--primary)' }}>Month 7-12: Scale to 5,000 Users ($3M ARR)</h4>
+              <p style={{ margin: 0, lineHeight: '1.7' }}>Launch referral program: existing users get $100 credit for each referral (viral coefficient 0.3 = 30% of users refer 1 friend). Partner with electrical supply distributors (Graybar, Rexel) for co-marketing - demo kiosks in 500 distributor locations. Launch YouTube channel with code violation tutorials (SEO for "NEC code violations" - 10K monthly searches). Expand to plumbing with UPC code compliance (+500K TAM).</p>
             </div>
-            <div className="market-tier" style={{ border: '1px solid var(--primary)', padding: '1.5rem', borderRadius: '12px' }}>
-              <span className="market-label">Year 2: EyeMoose Launch + Enterprise (20,000 Users, $15M ARR)</span>
-              <span className="market-desc">Launch EyeMoose AR glasses at $99/month. Target 30% of existing SnapMoose base to upgrade (1,500 users). Launch enterprise tier for 10+ contractor firms at $400/month (volume discount, centralized billing, admin dashboard). Partner with trade schools (300+ electrical/plumbing programs) for apprentice training subscriptions ($30/month student rate).</span>
+            <div style={{ border: '1px solid var(--primary)', padding: '1.5rem', borderRadius: '12px' }}>
+              <h4 style={{ marginTop: 0, marginBottom: '0.75rem', fontSize: '1.1rem', color: 'var(--primary)' }}>Year 2: EyeMoose Launch + Enterprise (20,000 Users, $15M ARR)</h4>
+              <p style={{ margin: 0, lineHeight: '1.7' }}>Launch EyeMoose AR glasses at $99/month. Target 30% of existing SnapMoose base to upgrade (1,500 users). Launch enterprise tier for 10+ contractor firms at $400/month (volume discount, centralized billing, admin dashboard). Partner with trade schools (300+ electrical/plumbing programs) for apprentice training subscriptions ($30/month student rate).</p>
             </div>
-            <div className="market-tier" style={{ border: '1px solid var(--primary)', padding: '1.5rem', borderRadius: '12px' }}>
-              <span className="market-label">Year 3: Platform Dominance (50,000 Users, $30M ARR)</span>
-              <span className="market-desc">Launch FixMoose Pro at $49/month (20% attach rate = 10,000 users). Expand to HVAC with IMC code compliance (+400K TAM). Build supplier marketplace (contractors one-click order parts from SnapMoose violation reports, IntelliMoose takes 5% transaction fee). International expansion to Canada (CEC code compliance) and UK (BS 7671 electrical code).</span>
+            <div style={{ border: '1px solid var(--primary)', padding: '1.5rem', borderRadius: '12px' }}>
+              <h4 style={{ marginTop: 0, marginBottom: '0.75rem', fontSize: '1.1rem', color: 'var(--primary)' }}>Year 3: Platform Dominance (50,000 Users, $30M ARR)</h4>
+              <p style={{ margin: 0, lineHeight: '1.7' }}>Launch FixMoose Pro at $49/month (20% attach rate = 10,000 users). Expand to HVAC with IMC code compliance (+400K TAM). Build supplier marketplace (contractors one-click order parts from SnapMoose violation reports, IntelliMoose takes 5% transaction fee). International expansion to Canada (CEC code compliance) and UK (BS 7671 electrical code).</p>
             </div>
           </div>
         </div>
