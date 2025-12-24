@@ -21,11 +21,14 @@
 }
 
 .footer-link {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-decoration: none !important;
+  font-size: 1rem !important;
   transition: color 0.3s ease;
   white-space: nowrap;
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .footer-link:hover {
@@ -33,9 +36,11 @@
 }
 
 .footer-separator {
-  color: rgba(255, 255, 255, 0.5);
-  opacity: 1;
-  margin: 0 0.25rem;
+  color: rgba(255, 255, 255, 0.6) !important;
+  opacity: 1 !important;
+  margin: 0 0.5rem;
+  display: inline-block !important;
+  visibility: visible !important;
 }
 
 .footer-copyright {
