@@ -10,6 +10,10 @@ const LegalFooter = () => {
           <span className="footer-separator">•</span>
           <Link to="/terms" className="footer-link">Terms of Service</Link>
           <span className="footer-separator">•</span>
+          <Link to="/patent-strategy" className="footer-link">Patent Strategy</Link>
+          <span className="footer-separator">•</span>
+          <Link to="/pitch" className="footer-link">Investor Pitch</Link>
+          <span className="footer-separator">•</span>
           <a href="mailto:invest@intellimoose.com" className="footer-link">Contact</a>
         </div>
 
