@@ -6,6 +6,7 @@ import EyeMoosePage from './pages/EyeMoosePage';
 import PlatformPage from './pages/PlatformPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
+import PatentStrategyPage from './pages/PatentStrategyPage';
 import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/platform" element={<PlatformPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
+          <Route path="/patent-strategy" element={<PatentStrategyPage />} />
         </Routes>
       </div>
     </Router>

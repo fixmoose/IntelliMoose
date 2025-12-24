@@ -77,7 +77,7 @@ const SnapMoosePage = () => {
 
         <div className="problem-description">
           <p style={{ fontSize: '1.3rem', textAlign: 'center', marginBottom: '3rem' }}>
-            <strong>SnapMoose is a mobile app (iOS & Android) that uses your phone's camera to check electrical code compliance.</strong>
+            <strong>SnapMoose is an AI-assisted mobile app (iOS & Android) that helps licensed contractors review electrical installations for potential code compliance issues.</strong>
           </p>
         </div>
 
@@ -133,8 +133,8 @@ const SnapMoosePage = () => {
 
         <div className="problem-description" style={{ marginTop: '3rem' }}>
           <p style={{ fontSize: '1.2rem', textAlign: 'center' }}>
-            <strong>Download app → Point camera at panel/outlet/box → Get instant violation report.</strong>
-            <br />No hardware to buy. Uses phone camera. Works in basements with no signal. Fix violations before inspector arrives.
+            <strong>Download app → Point camera at panel/outlet/box → Get instant compliance review with AI-suggested issues for contractor confirmation.</strong>
+            <br />No hardware to buy. Uses phone camera. Works in basements with no signal. Review installations before inspector arrives.
           </p>
         </div>
       </section>
@@ -205,10 +205,10 @@ const SnapMoosePage = () => {
           <div className="demo-step">
             <div className="step-number">2</div>
             <div className="step-content">
-              <h3>AI Analysis</h3>
+              <h3>AI-Assisted Analysis</h3>
               <p>
                 Computer vision model (fine-tuned YOLOv8) identifies components: breakers, wires, outlets, boxes.
-                GPT-4 Vision cross-references NEC 2023 code database to find violations.
+                GPT-4 Vision cross-references NEC 2023 code database to suggest potential violations for contractor review.
               </p>
             </div>
           </div>
@@ -218,12 +218,12 @@ const SnapMoosePage = () => {
           <div className="demo-step">
             <div className="step-number">3</div>
             <div className="step-content">
-              <h3>Instant Violation Report</h3>
+              <h3>Instant Compliance Review</h3>
               <ul className="output-list">
-                <li>✓ Violations highlighted with red bounding boxes</li>
+                <li>✓ Potential issues highlighted for contractor review</li>
                 <li>✓ Specific NEC section citations (e.g., "NEC 210.8(A)(6)")</li>
-                <li>✓ Plain-English explanation of the problem</li>
-                <li>✓ Recommended fix with parts list</li>
+                <li>✓ Plain-English explanation of potential concerns</li>
+                <li>✓ Recommended fixes with parts list</li>
               </ul>
             </div>
           </div>
@@ -295,30 +295,30 @@ const SnapMoosePage = () => {
 
       {/* Real-World Examples */}
       <section className="product-section dark">
-        <h2>Real-World Violation Detection Examples</h2>
+        <h2>Real-World Code Compliance Assistance Examples</h2>
 
         <div className="features-grid">
           <div className="feature-card">
             <div className="feature-icon">⚡</div>
-            <h3>GFCI Violations</h3>
+            <h3>GFCI Compliance Review</h3>
             <p>
-              <strong>Detection:</strong> Identifies outlet types in kitchens, bathrooms, garages, outdoors.
+              <strong>AI Detection:</strong> Identifies outlet types and locations (kitchens, bathrooms, garages, outdoors).
               <br /><br />
-              <strong>Violation:</strong> Standard outlet in bathroom (requires GFCI per NEC 210.8(A)(1)).
+              <strong>AI Suggestion:</strong> "Review: Standard outlet in bathroom may require GFCI per NEC 210.8(A)(1). Contractor to confirm."
               <br /><br />
-              <strong>Fix:</strong> "Replace with GFCI outlet (Leviton GFNT1-W, $18). Test monthly."
+              <strong>Recommended Fix:</strong> "Replace with GFCI outlet (Leviton GFNT1-W, $18). Test monthly."
             </p>
           </div>
 
           <div className="feature-card">
             <div className="feature-icon">🔌</div>
-            <h3>Wire Gauge Errors</h3>
+            <h3>Wire Gauge Review Assistance</h3>
             <p>
-              <strong>Detection:</strong> Reads wire labels (14 AWG, 12 AWG, 10 AWG) and breaker sizes.
+              <strong>AI Detection:</strong> Reads wire labels (14 AWG, 12 AWG, 10 AWG) and breaker sizes.
               <br /><br />
-              <strong>Violation:</strong> 14 AWG wire on 20-amp breaker (max 15-amp per NEC 240.4(D)).
+              <strong>AI Suggestion:</strong> "Review: 14 AWG wire on 20-amp breaker may exceed NEC 240.4(D) max 15-amp. Contractor to verify."
               <br /><br />
-              <strong>Fix:</strong> "Downgrade to 15-amp breaker OR replace with 12 AWG wire."
+              <strong>Recommended Fix:</strong> "Downgrade to 15-amp breaker OR replace with 12 AWG wire."
             </p>
           </div>
 
@@ -386,11 +386,11 @@ const SnapMoosePage = () => {
         <div className="features-grid">
           <div className="feature-card">
             <div className="feature-icon">🚫</div>
-            <h3>ABS Pipe Restrictions</h3>
+            <h3>Pipe Material Code Compliance</h3>
             <p>
-              <strong>Detection:</strong> Identifies ABS (black plastic) vs PVC (white) pipe in drain systems.
+              <strong>Detection:</strong> Voice-tag pipe material (ABS, PVC, copper) → System checks jurisdiction code requirements.
               <br /><br />
-              <strong>Violation:</strong> ABS pipe used in jurisdiction where only PVC is allowed (varies by state/municipality).
+              <strong>Potential Violation:</strong> ABS pipe in jurisdiction where only PVC is allowed (varies by state/municipality). AI suggests review.
               <br /><br />
               <strong>Fix:</strong> "Replace ABS with Schedule 40 PVC. Check local amendments—some areas ban ABS entirely due to fire concerns."
               <br /><br />
@@ -557,10 +557,10 @@ const SnapMoosePage = () => {
 
           <div className="feature-card">
             <div className="feature-icon">🔔</div>
-            <h3>Real-Time Alerts</h3>
+            <h3>Real-Time Compliance Suggestions</h3>
             <p>
-              As you take photos during installation, app alerts you immediately if it detects a violation.
-              Fix it now, not after inspector finds it. Prevents expensive re-work.
+              As you take photos during installation, app suggests potential code issues for immediate contractor review.
+              Licensed contractors verify and fix suggested issues before inspector arrives. Helps prevent expensive re-work.
             </p>
           </div>
 
@@ -629,59 +629,66 @@ const SnapMoosePage = () => {
         </div>
       </section>
 
-      {/* Patentability */}
+      {/* Intellectual Property */}
       <section className="product-section">
-        <h2>Patentable Innovation</h2>
+        <h2>Intellectual Property Strategy</h2>
 
         <div className="patent-claims">
           <div className="patent-card">
-            <h3>Real-Time Code Compliance Verification</h3>
+            <h3>AI-Assisted Code Compliance Review</h3>
             <p>
-              <strong>Claim:</strong> System for real-time detection of electrical code violations using computer vision
-              and natural language processing, with accuracy exceeding 95% on common NEC violations (GFCI, wire gauge, box fill).
+              <strong>Innovation:</strong> AI-assisted system that helps licensed contractors review installations for potential
+              NEC code issues, combining computer vision with trade-specific code databases for real-time suggestions.
             </p>
             <p>
-              <strong>Prior Art Differentiation:</strong> Generic image recognition (Google Lens) can't interpret electrical codes.
-              Manual code lookup is slow. Our automated code-to-image matching with specific violation detection is novel.
+              <strong>Approach:</strong> Human-in-the-loop design where AI suggests potential issues and licensed contractors
+              make final determinations. This maintains professional responsibility while providing intelligent assistance.
             </p>
             <p>
-              <strong>Measurable Innovation:</strong> Reduces inspection failure rate from 40% to &lt;5%. Saves $7K avg per prevented failure.
+              <strong>Value:</strong> Reduces inspection failure rate from 40% to &lt;5%. Saves $7K avg per prevented failure.
               Provides specific NEC citations in &lt;3 seconds vs. 10-15 minutes manual lookup.
             </p>
           </div>
 
           <div className="patent-card">
-            <h3>Hybrid Offline/Online Compliance Checking</h3>
+            <h3>Voice-Tagged Material Compliance</h3>
             <p>
-              <strong>Claim:</strong> Architecture for electrical code compliance verification that operates in offline mode
-              with 85% accuracy using on-device ML, then enhances to 95%+ accuracy when synced to cloud database, with automatic
-              reconciliation of offline predictions.
+              <strong>Innovation:</strong> Integration of voice-based material identification with code database lookup,
+              allowing contractors to tag materials hands-free while AI cross-references jurisdiction requirements.
             </p>
             <p>
-              <strong>Prior Art Differentiation:</strong> Cloud-only solutions (building.ai, others) require internet. Pure offline
-              tools lack accuracy. Our hybrid approach with smart syncing and prediction reconciliation is novel.
+              <strong>Approach:</strong> Contractor identifies materials via voice (integrated with VoiceMoose), system checks
+              jurisdiction-specific code requirements (e.g., ABS vs PVC restrictions), creates documentation trail.
             </p>
             <p>
-              <strong>Measurable Innovation:</strong> Works in 100% of job site conditions (offline + online). 15MB on-device model
-              vs. 500MB+ for competitor solutions. Offline predictions upgraded retroactively when online.
+              <strong>Value:</strong> Avoids material-specific blocking patents while providing same functionality. Creates
+              audit trail of contractor material choices. Faster than camera-based detection in poor lighting.
             </p>
           </div>
 
           <div className="patent-card">
-            <h3>Multi-Code Version Compatibility Engine</h3>
+            <h3>Geometric Code Violation Detection</h3>
             <p>
-              <strong>Claim:</strong> System for simultaneously evaluating electrical installations against multiple code versions
-              (NEC 2023, 2020, 2017) and regional amendments, with automatic jurisdiction detection based on GPS location.
+              <strong>Innovation:</strong> Computer vision detection of geometric code violations (junction box accessibility,
+              90-degree drain bends, trap depth, pipe slope) using shape recognition and smartphone sensors.
             </p>
             <p>
-              <strong>Prior Art Differentiation:</strong> Existing tools support single code version. Manual jurisdiction lookup is error-prone.
-              Our automatic multi-code evaluation with location-aware amendments is novel.
+              <strong>Approach:</strong> Focus on shape/dimension detection rather than material identification. Uses phone
+              accelerometer for slope, depth sensors for measurements, CV for geometric features.
             </p>
             <p>
-              <strong>Measurable Innovation:</strong> Covers 95% of US jurisdictions automatically. Detects jurisdiction-specific amendments
-              (e.g., "California requires AFCI in kitchens, but NEC 2023 doesn't"). Prevents costly mistakes in multi-state contractors.
+              <strong>Value:</strong> Detects violations missed by traditional inspections. Accelerometer-based slope measurement
+              more accurate than visual inspection. Patent-safe implementation avoiding prior art conflicts.
             </p>
           </div>
+        </div>
+
+        <div className="patent-note" style={{ marginTop: '2rem', padding: '1.5rem', background: 'rgba(6, 182, 212, 0.1)', borderRadius: '12px', border: '1px solid rgba(6, 182, 212, 0.3)' }}>
+          <p style={{ margin: 0, fontSize: '0.95rem', lineHeight: '1.6' }}>
+            <strong>Note:</strong> For detailed patent landscape analysis, freedom-to-operate assessment, and IP strategy,
+            see our <Link to="/patent-strategy" style={{ color: 'var(--primary)', textDecoration: 'underline' }}>Patent Strategy Document</Link>.
+            This includes analysis of blocking patents, design-around approaches, and provisional patent filing recommendations.
+          </p>
         </div>
       </section>
 
